@@ -16,5 +16,4 @@ if (topBorder) camera_y = 0;
 if (bottomBorder) camera_y = room_height - halfViewHeight*2;
 camera_set_view_pos(view_camera[0], camera_x , camera_y)
 #endregion
-
 //this setup works with any room size and viewport size

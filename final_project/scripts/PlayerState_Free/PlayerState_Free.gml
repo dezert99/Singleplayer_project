@@ -1,7 +1,7 @@
 hSpeed = (keyRight - keyLeft) * walkSpeed;
 vSpeed = vSpeed + gravSpeed;
 
-//hor collision
+//hor collision//
 if (place_meeting(x+hSpeed,y,oWall))
 {
 	var onePixel = sign(hSpeed);
@@ -9,7 +9,7 @@ if (place_meeting(x+hSpeed,y,oWall))
 	hSpeed = 0;
 }
 x += hSpeed;
-
+//sprite changes//
 if (hSpeed != 0)
 {
 	image_xscale = sign(hSpeed);
@@ -20,19 +20,23 @@ else
 	sprite_index = spr_malek_idle;	
 }
 
-//vert collision
-
+//vert collision//
 if (place_meeting(x,y+vSpeed,oWall))
 {
 	var onePixel = sign(vSpeed);
 	while (!place_meeting(x,y+onePixel,oWall)) y += onePixel;
 	vSpeed = 0;
+	grounded = true;
 }
-y += vSpeed;
-
-
-if (keyJump)
+else
 {
+	grounded = false;
+}
+y += vSpeed; // must be under collisions
+
+if (keyJump && grounded)
+{
+	grounded = false;
 	vSpeed -= jump_amt;
 }
 

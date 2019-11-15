@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "5ebade26-b1d7-419c-80dd-2da7af43d0bd",
-            "Value": {
-                "id": "5ff7166a-d068-436e-b409-ccbfe81f4ff5",
-                "resourcePath": "sprites\\spr_snowman_idle\\spr_snowman_idle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7630bac9-5633-41b6-9cc2-8f7a1e2aa185",
             "Value": {
                 "id": "277ee556-1430-4cd7-b5bd-95a76b44e0cf",
