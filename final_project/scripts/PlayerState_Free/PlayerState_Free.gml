@@ -12,7 +12,7 @@ x += hSpeed;
 
 if (hSpeed != 0)
 {
-	image_xscale = sign(hSpeed)
+	image_xscale = sign(hSpeed);
 	sprite_index = spr_malek_imp;
 }
 else
@@ -31,9 +31,9 @@ if (place_meeting(x,y+vSpeed,oWall))
 y += vSpeed;
 
 
-if key_jump != 0
+if (keyJump)
 {
-	vSpeed -= jump_amt
+	vSpeed -= jump_amt;
 }
 
-//if (keyAttack) state = PLAYERSTATE.ATTACK_SLASH;
+if (keyAttack) state = PLAYERSTATE.ATTACK_SLASH;

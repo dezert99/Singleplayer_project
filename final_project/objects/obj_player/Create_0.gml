@@ -3,7 +3,7 @@ vSpeed = 0;
 gravSpeed = 1;
 walkSpeed = 8;
 
-grounded=false;
+grounded = false;
 
 jump_amt = 15;
 
@@ -14,6 +14,7 @@ enum PLAYERSTATE
 {
 	FREE,
 	ATTACK_SLASH,
-	ATTACK_COMBO
+	ATTACK_COMBO,
+	DEATH
 }
 
