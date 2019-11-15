@@ -242,7 +242,7 @@
             "Key": "d5ee4c47-ce94-4d08-ac26-d1aba7dd990a",
             "Value": {
                 "id": "c1a00a96-09fa-481f-87e9-ee30396d98b4",
-                "resourcePath": "objects\\obj_malek\\obj_malek.yy",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
             }
         },

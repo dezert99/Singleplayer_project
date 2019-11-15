@@ -2,7 +2,7 @@
     "id": "d5ee4c47-ce94-4d08-ac26-d1aba7dd990a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_malek",
+    "name": "obj_player",
     "eventList": [
         {
             "id": "e9661b61-b037-4843-8e19-d026173d87aa",
