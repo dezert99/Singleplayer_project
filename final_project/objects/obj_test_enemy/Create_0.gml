@@ -9,7 +9,14 @@ hit_timer_set = 10;
 globalvar damage_taken;
 damage_taken = 0;
 //frameCount = 0;
-hp = 30;
+
+////variables for graphics////
+hp = 25;
+float_x = 0;
+float_y = y - 80;
+float_spd = 5;
+color = c_orange;
+////////////////
 
 enum ENEMYSTATE
 {

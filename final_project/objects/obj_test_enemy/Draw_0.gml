@@ -1,3 +1,31 @@
 draw_self();
-if state != ENEMYSTATE.DEAD draw_healthbar(x - 50, y - 120, x + 50, y - 125, hp,c_dkgray,c_red,c_green,0,true,true);
-if state = ENEMYSTATE.HIT draw_text_transformed_color(obj_test_enemy.x-70,obj_test_enemy.y-80,string(damage_taken),1.5,1.5,0,c_red,c_red,c_red,c_red,1);
+if (state != ENEMYSTATE.DEAD) draw_healthbar(x - 20, y - 120, x + 20, y - 125, hp*4,c_dkgray,c_red,c_green,0,true,true);
+
+if (state = ENEMYSTATE.HIT)
+{
+	if (damage_taken > 7)
+	{
+		color = c_red;
+	}
+	else
+	{
+		color = c_orange;
+	}
+	draw_text_transformed_color(float_x,float_y,string(damage_taken),1.7,1.7,0,color,color,color,color,1);
+	float_spd = irandom_range(4,7);
+	float_y -= float_spd;
+	if (image_xscale == 1) 
+	{
+		float_x = x - 60;
+	}
+	else
+	{
+		float_x = x + 60;
+	}
+	
+}
+else
+{
+	float_y = y - 90;
+}
+

@@ -5,6 +5,7 @@ crit_chance = irandom_range(0,9);
 
 if crit_chance == 1
 {
+	crit = true;
 	base_damage += crit_rand;
 
 }
