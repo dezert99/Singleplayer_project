@@ -1,6 +1,6 @@
 hSpeed = 0;
 vSpeed = 0;
-grav = 0.5;
+grav = 0.7;
 hitNow = false;
 flash = false;
 state = ENEMYSTATE.FREE;

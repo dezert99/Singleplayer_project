@@ -20,7 +20,6 @@ if layer_exists("farthest")
 {
 	layer_x("farthest",camera_x/2);
 	if camera_y > 450 layer_y("farthest",camera_y);
-	
 }
 if layer_exists("far")
 {

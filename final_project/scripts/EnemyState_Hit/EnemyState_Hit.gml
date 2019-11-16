@@ -1,3 +1,4 @@
+vSpeed += grav
 hit_timer -= 1
 image_blend = c_red;
 if hit_timer < 5 flash = false;
@@ -9,6 +10,7 @@ else
 {
 	hSpeed = -10;
 }
+if hit_timer > 7 vSpeed -= 4
 if (place_meeting(x+hSpeed,y,oWall))
 {
 	var onePixel = sign(hSpeed);
@@ -16,6 +18,18 @@ if (place_meeting(x+hSpeed,y,oWall))
 	hSpeed = 0;
 }
 x += hSpeed;
+if (place_meeting(x,y+vSpeed,oWall))
+{
+	var onePixel = sign(vSpeed);
+	while (!place_meeting(x,y+onePixel,oWall)) y += onePixel;
+	vSpeed = 0;
+	grounded = true;
+}
+else
+{
+	grounded = false;
+}
+y += vSpeed; // must be under collisions
 if (hit_timer == 0)
 {
 	state = ENEMYSTATE.FREE;

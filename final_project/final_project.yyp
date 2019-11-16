@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0ce12032-da0d-4fa7-b90b-55a8d722ec60",
+            "Value": {
+                "id": "c069c653-32d0-4df9-bcaa-dbc871364949",
+                "resourcePath": "sprites\\ghibli_bg_2\\ghibli_bg_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0d547383-2dc6-42d4-a106-843d27df5852",
             "Value": {
                 "id": "b99c97b0-0004-45fd-b4cc-c486bb6e8931",

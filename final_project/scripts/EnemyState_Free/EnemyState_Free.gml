@@ -1,3 +1,4 @@
+vSpeed += grav
 image_blend = c_white;
 if obj_player.x > x 
 {
@@ -14,3 +15,15 @@ if (place_meeting(x+hSpeed,y,oWall))
 	while (!place_meeting(x+onePixel,y,oWall)) x += onePixel;
 	hSpeed = 0;
 }
+if (place_meeting(x,y+vSpeed,oWall))
+{
+	var onePixel = sign(vSpeed);
+	while (!place_meeting(x,y+onePixel,oWall)) y += onePixel;
+	vSpeed = 0;
+	grounded = true;
+}
+else
+{
+	grounded = false;
+}
+y += vSpeed; // must be under collisions
