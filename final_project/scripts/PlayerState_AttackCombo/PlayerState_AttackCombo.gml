@@ -1,0 +1,1 @@
+state = PLAYERSTATE.FREE //for now so it doesn't get stuck

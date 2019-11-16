@@ -16,4 +16,14 @@ if (topBorder) camera_y = 0;
 if (bottomBorder) camera_y = room_height - halfViewHeight*2;
 camera_set_view_pos(view_camera[0], camera_x , camera_y)
 #endregion
+if layer_exists("farthest")
+{
+	layer_x("farthest",camera_x/2);
+	if camera_y > 450 layer_y("farthest",camera_y);
+	
+}
+if layer_exists("far")
+{
+	layer_x("far",camera_x/4);
+}
 //this setup works with any room size and viewport size

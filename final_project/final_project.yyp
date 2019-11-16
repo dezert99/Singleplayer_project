@@ -39,10 +39,50 @@
             }
         },
         {
+            "Key": "0d547383-2dc6-42d4-a106-843d27df5852",
+            "Value": {
+                "id": "b99c97b0-0004-45fd-b4cc-c486bb6e8931",
+                "resourcePath": "scripts\\EnemyState_Dead\\EnemyState_Dead.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "134fcf4d-7677-44c7-866b-acb2e55c8f51",
+            "Value": {
+                "id": "493a582b-48d0-4792-a100-d6bad65c962d",
+                "resourcePath": "views\\134fcf4d-7677-44c7-866b-acb2e55c8f51.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "17b8fdb0-a80e-4945-ab2f-905a3c999112",
+            "Value": {
+                "id": "2b8cc429-3717-469a-9929-ae1d7c3845fe",
+                "resourcePath": "scripts\\ProcessAttack\\ProcessAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1d73a206-53c7-4b5a-a0da-164a140a73d1",
+            "Value": {
+                "id": "1949d22f-e339-427b-8b49-7f1b7ec3955f",
+                "resourcePath": "scripts\\EnemyState_Hit\\EnemyState_Hit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "24909e7c-580e-4abb-810f-250cfd122908",
             "Value": {
                 "id": "9e2e22d9-e457-4daf-b65b-17f66166a120",
                 "resourcePath": "sprites\\spr_stone_wall\\spr_stone_wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2814898a-e07f-4fd3-95cc-1431cc98f31f",
+            "Value": {
+                "id": "7ac7b86e-afd0-4322-8338-c33f67919c7c",
+                "resourcePath": "sprites\\spr_test_mountains\\spr_test_mountains.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -67,6 +107,30 @@
             "Value": {
                 "id": "3c081a6a-20b7-45fc-a688-c5e1fb9f32e4",
                 "resourcePath": "scripts\\PlayerState_Death\\PlayerState_Death.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "37bc2397-c7d4-4e36-94a4-2bcafddb6f98",
+            "Value": {
+                "id": "a4cfcac2-45ab-4b46-94de-c00bb3c8c27d",
+                "resourcePath": "scripts\\standard_sword\\standard_sword.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "397b01a3-1b40-4431-a573-42c3a0d88a16",
+            "Value": {
+                "id": "25fd8c44-a054-46a8-ac13-71fb4c72e2b8",
+                "resourcePath": "sprites\\spr_slash\\spr_slash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "41adb7cf-ccd1-4aff-8f5d-45f7913ac074",
+            "Value": {
+                "id": "ddace7b6-b1de-4e2b-8b44-62ce9184d0c7",
+                "resourcePath": "scripts\\animation_end\\animation_end.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -108,6 +172,22 @@
                 "id": "68b44ba7-42c4-4a43-a974-753209000209",
                 "resourcePath": "scripts\\PlayerState_Free_b\\PlayerState_Free_b.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "65659203-5f32-40b5-9ccb-d41715341dba",
+            "Value": {
+                "id": "79bfc7e4-0c73-4e58-8730-f96ad5cab964",
+                "resourcePath": "scripts\\EnemyState_Free\\EnemyState_Free.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "65a3d54d-d042-4a57-a9ba-c2876e7f00b9",
+            "Value": {
+                "id": "80ab70b6-4405-4503-bf25-ab4e1cc14650",
+                "resourcePath": "sprites\\spr_slash_HB\\spr_slash_HB.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -223,11 +303,27 @@
             }
         },
         {
+            "Key": "cb506ab3-a822-4fb9-85bc-bdda4d1b9dec",
+            "Value": {
+                "id": "3b5c9511-6656-4d73-93e5-0fdbce561ebf",
+                "resourcePath": "scripts\\EnemyHit\\EnemyHit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "6c6e0971-8e3b-4cdc-a3b6-5dfea6cfb986",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cfbc2a02-20ed-4dfb-93e3-ba76f1ae30b2",
+            "Value": {
+                "id": "8a275434-a572-46dc-bd1c-6c2ad46c3cb6",
+                "resourcePath": "sprites\\spr_test_trees\\spr_test_trees.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -259,6 +355,14 @@
             "Value": {
                 "id": "2674fdcc-d63f-4c52-9884-b0cc675bfaa4",
                 "resourcePath": "views\/dbca2f16-51ba-4740-9016-e15ea97419d1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dec44280-6f52-4842-83dd-a18025da1a0d",
+            "Value": {
+                "id": "10555474-5bac-4376-bf2c-8c8d424835f8",
+                "resourcePath": "views\\dec44280-6f52-4842-83dd-a18025da1a0d.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -307,8 +411,15 @@
         "425163bc-fb8f-4da6-9d03-fdc28d68c89c",
         "5d18d09d-0207-48e9-8a82-61041ff510cb",
         "e347ef64-a76c-419e-9766-d304e98a6916",
+        "17b8fdb0-a80e-4945-ab2f-905a3c999112",
+        "cb506ab3-a822-4fb9-85bc-bdda4d1b9dec",
         "da721a48-bdfa-4f5c-802f-565fdbaf2693",
-        "35c93b6d-fb3e-4ece-9831-86c9e3474089"
+        "35c93b6d-fb3e-4ece-9831-86c9e3474089",
+        "41adb7cf-ccd1-4aff-8f5d-45f7913ac074",
+        "65659203-5f32-40b5-9ccb-d41715341dba",
+        "1d73a206-53c7-4b5a-a0da-164a140a73d1",
+        "0d547383-2dc6-42d4-a106-843d27df5852",
+        "37bc2397-c7d4-4e36-94a4-2bcafddb6f98"
     ],
     "tutorial": ""
 }
