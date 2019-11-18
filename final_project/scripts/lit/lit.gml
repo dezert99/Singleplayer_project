@@ -1,5 +1,5 @@
 var nearest_light = 0;
-if instance_exists(torch_light) 
+if instance_exists(torch_light) and layer_get_visible("Lights")
 {
 	nearest_light = instance_nearest(x,y,torch_light);
 
@@ -23,4 +23,8 @@ if instance_exists(torch_light)
 	{
 		depth = 3;
 	}
+}
+else
+{
+	image_blend = c_white;
 }
