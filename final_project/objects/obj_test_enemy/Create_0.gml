@@ -1,3 +1,4 @@
+depth = 3;
 hSpeed = 0;
 vSpeed = 0;
 grav = 0.7;

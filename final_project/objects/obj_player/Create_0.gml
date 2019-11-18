@@ -23,3 +23,5 @@ base_damage = 5;
 rand = 0;
 crit_rand = 0;
 crit_chance = 0;
+
+depth = 3;

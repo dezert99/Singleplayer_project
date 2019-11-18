@@ -27,3 +27,5 @@ else
 	grounded = false;
 }
 y += vSpeed; // must be under collisions
+
+lit();
