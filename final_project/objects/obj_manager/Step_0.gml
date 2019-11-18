@@ -2,7 +2,7 @@ if night
 {
 	layer_set_visible("Night",true);
 	layer_set_visible("Day",false);
-	layer_set_visible("Lgihts",true);
+	layer_set_visible("Lights",true);
 	obj_dark.image_alpha = 0.8;
 }
 else

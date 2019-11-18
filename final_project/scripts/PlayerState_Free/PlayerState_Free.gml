@@ -1,6 +1,6 @@
 hSpeed = (keyRight - keyLeft) * walkSpeed;
 vSpeed = vSpeed + gravSpeed;
-
+lit();
 //hor collision//
 if (place_meeting(x+hSpeed,y,oWall))
 {
@@ -42,4 +42,4 @@ if (keyJump && grounded)
 
 if (keyAttack) state = PLAYERSTATE.ATTACK_SLASH;
 
-lit();
+

@@ -1,21 +1,26 @@
-if (place_meeting(x,y,torch_light))
+var nearest_light = 0;
+if instance_exists(torch_light) 
 {
-	depth = 1;
-	if (x < torch_light.x - 100 || x > torch_light.x + 100) 
+	nearest_light = instance_nearest(x,y,torch_light);
+
+	if (place_meeting(x,y,nearest_light))
 	{
-		image_blend = c_dkgray;
-	}
-	else if (x < torch_light.x - 70 || x > torch_light.x + 70) 
-	{
-		image_blend = c_gray;
+		depth = 1;
+		if (x < nearest_light.x - 100 || x > nearest_light.x + 100) 
+		{
+			image_blend = c_dkgray;
+		}
+		else if (x < nearest_light.x - 70 || x > nearest_light.x + 70) 
+		{
+			image_blend = c_gray;
+		}
+		else
+		{
+			image_blend = c_white;
+		}
 	}
 	else
 	{
-		image_blend = c_white;
+		depth = 3;
 	}
-}
-else
-{
-	depth = 3;
-	image_blend = c_white;
 }
