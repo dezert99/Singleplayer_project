@@ -12,5 +12,5 @@ else
 {
 	base_damage += rand;
 }
-return base_damage;
 
+return base_damage;
