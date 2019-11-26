@@ -15,7 +15,8 @@ enum PLAYERSTATE
 	FREE,
 	ATTACK_SLASH,
 	ATTACK_COMBO,
-	DEATH
+	DEATH,
+	MENU
 }
 
 hitByAttack = ds_list_create();

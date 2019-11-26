@@ -11,7 +11,8 @@
         "cb506ab3-a822-4fb9-85bc-bdda4d1b9dec",
         "da721a48-bdfa-4f5c-802f-565fdbaf2693",
         "35c93b6d-fb3e-4ece-9831-86c9e3474089",
-        "41adb7cf-ccd1-4aff-8f5d-45f7913ac074"
+        "41adb7cf-ccd1-4aff-8f5d-45f7913ac074",
+        "322a2006-a852-479e-b486-674f85614ef9"
     ],
     "filterType": "GMScript",
     "folderName": "Player States",

@@ -41,5 +41,6 @@ if (keyJump && grounded)
 }
 
 if (keyAttack) state = PLAYERSTATE.ATTACK_SLASH;
+if (keyMenu) state = PLAYERSTATE.MENU;
 
 
