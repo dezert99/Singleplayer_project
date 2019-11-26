@@ -41,6 +41,14 @@ if (keyJump && grounded)
 }
 
 if (keyAttack) state = PLAYERSTATE.ATTACK_SLASH;
-if (keyMenu) state = PLAYERSTATE.MENU;
-
+if (keyMenu) 
+{
+	var center_x = camera_x + halfViewWidth;
+	var center_y = camera_y + halfViewHeight;
+	with instance_create_layer(center_x,center_y,"UI",obj_dark)
+	{
+		obj_dark.image_alpha = 0.8;
+	}
+	state = PLAYERSTATE.MENU;
+}
 

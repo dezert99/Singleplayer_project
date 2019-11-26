@@ -11,4 +11,4 @@ myText[6] = "Oh and if you do find it, DO NOT DARE TRY AND OPEN IT!!! For your o
 
 reset = false;
 
-my_name = "Lurker"
+my_name = "Lurker"	     
