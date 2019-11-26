@@ -2,7 +2,7 @@ myTextbox = noone
 chatTriggered = false
 
 myText[0] = "AHH!!...H...hello the-"
-myText[1] = "*AHEM* Consider yourself luck boy! For you have stumbled upon the rarest site there is..."
+myText[1] = "*AHEM* Consider yourself lucky boy! For you have stumbled upon the rarest site there is..."
 myText[2] = "I am never to be seen by mortal eyes, but I misplaced something rather...important"
 myText[3] = "You see, I misplaced a book with the symbol of a crescent moon and a knife"
 myText[4] = "If you can find it, I might teach you a little trick to impress your friends...if you have any, that is."
