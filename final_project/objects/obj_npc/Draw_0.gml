@@ -2,12 +2,12 @@
 // You can write your code in this editor
 
 draw_self();
-draw_rectangle(x-75,y,x+75,y-100,true);
+draw_rectangle(x - sprite_width,y + sprite_height,x + sprite_width,y-sprite_height,true);
 if(keyboard_check_pressed(vk_backspace)){
 	chatTriggered = true	
 }
 
-if(collision_rectangle(x-75,y,x+75,y-100,obj_player,false,false) && chatTriggered && !reset){
+if(collision_rectangle(x - sprite_width,y + sprite_height,x + sprite_width,y-sprite_height,obj_player,false,false) && chatTriggered && !reset){
 	if(myTextbox == noone){
 		myTextbox = instance_create_layer(x,y-250,"Text",obj_textbox);	
 		myTextbox.text = myText
