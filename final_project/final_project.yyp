@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "ad32ca0b-1510-4560-b8dd-39f1bb9e66d5",
+            "Value": {
+                "id": "9fa6f45a-1053-46d0-96b8-aab4dd41d35c",
+                "resourcePath": "objects\\oWall\\oWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "afa17f46-505a-47bf-9bcf-4a0d287afecd",
             "Value": {
                 "id": "b07bf804-de73-4879-904a-07f6cd414c37",
@@ -554,7 +562,7 @@
             "Key": "c05a6dbb-ec82-4fd6-adb2-8bf1539363ae",
             "Value": {
                 "id": "dcc443f7-ddc2-410e-8b7b-edc83ff3cf75",
-                "resourcePath": "objects\/oWall\/oWall.yy",
+                "resourcePath": "objects\\dirt\\dirt.yy",
                 "resourceType": "GMObject"
             }
         },

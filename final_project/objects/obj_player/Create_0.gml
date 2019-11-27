@@ -25,4 +25,4 @@ rand = 0;
 crit_rand = 0;
 crit_chance = 0;
 
-depth = 3;
+//depth = 3;
