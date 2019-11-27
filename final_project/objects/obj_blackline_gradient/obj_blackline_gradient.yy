@@ -1,8 +1,8 @@
 {
-    "id": "698b3d6a-a800-4207-b6a5-40f0131f1b79",
+    "id": "f6a69077-66fe-4c7a-b1f9-4fed5e2b81b8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_vine1_blurred",
+    "name": "obj_blackline_gradient",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "afa17f46-505a-47bf-9bcf-4a0d287afecd",
+    "spriteId": "fce494b4-d772-453b-9070-ef67e7bdd3a2",
     "visible": true
 }

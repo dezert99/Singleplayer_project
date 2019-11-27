@@ -11,10 +11,10 @@
         "194dce00-aac9-460b-a2fa-ba5e0cc6bf14",
         "0d208fcb-66df-4e24-9083-bc144a3598dc",
         "0ed3de88-4a84-4772-b153-7c0cc7e87d60",
+        "67c418e2-4835-43e8-8074-9724a70f7443",
         "c0ed0250-43b9-4901-ab4f-1c9a97edf631",
         "ccb2b0d3-87e3-4e4d-9c10-f10d69fcc933",
-        "3e37d3b4-9422-4592-94af-e552a07c94a6",
-        "46d3e72f-77cb-47d6-b4ed-cf825f673528"
+        "74415f23-fd75-4cfc-b79c-71e673ab87ad"
     ],
     "filterType": "GMSprite",
     "folderName": "Scene",
