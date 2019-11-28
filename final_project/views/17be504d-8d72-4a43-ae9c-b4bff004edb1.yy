@@ -10,7 +10,8 @@
         "ad32ca0b-1510-4560-b8dd-39f1bb9e66d5",
         "d7cec623-9d9e-413c-9d52-ce15e382d0c4",
         "b6091ca3-909c-4123-b989-2e77873fbbc6",
-        "d96982bf-91be-4d70-8aed-3fc37017b3dc"
+        "d96982bf-91be-4d70-8aed-3fc37017b3dc",
+        "42ae7414-b0e9-43fa-aef8-2ca4b44acc94"
     ],
     "filterType": "GMObject",
     "folderName": "Old Stuff",

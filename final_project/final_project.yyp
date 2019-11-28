@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "42ae7414-b0e9-43fa-aef8-2ca4b44acc94",
+            "Value": {
+                "id": "f1f32356-4759-4dc5-99b2-ceae1c78f9bc",
+                "resourcePath": "objects\/obj_invisible\/obj_invisible.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "432560a6-25f7-441e-a732-2bb69be71a67",
             "Value": {
                 "id": "fe761dae-29d2-478d-ad55-9f2e4b79cb31",
@@ -444,6 +452,14 @@
                 "id": "b7027e1a-7e6f-4d87-a424-e5bff2bc3cd5",
                 "resourcePath": "objects\/obj_pastel_gradient\/obj_pastel_gradient.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "70b92345-d8f4-4cae-a62b-e80c53b0d86a",
+            "Value": {
+                "id": "a1375405-efe7-43b6-85a5-3e273c735ecb",
+                "resourcePath": "sprites\/spr_invisible\/spr_invisible.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -991,6 +1007,14 @@
             }
         },
         {
+            "Key": "fa4e72ef-8f38-4ec5-8458-455354244b2b",
+            "Value": {
+                "id": "5a3b2d90-729f-4ab1-850e-443065c20498",
+                "resourcePath": "scripts\/EnemyState_Chasing\/EnemyState_Chasing.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fb8cce70-8fb8-43e9-8575-02a35c03a468",
             "Value": {
                 "id": "682ee6af-c5be-4c60-8cbc-a23ce780bb75",
@@ -1036,6 +1060,7 @@
         "65659203-5f32-40b5-9ccb-d41715341dba",
         "1d73a206-53c7-4b5a-a0da-164a140a73d1",
         "0d547383-2dc6-42d4-a106-843d27df5852",
+        "fa4e72ef-8f38-4ec5-8458-455354244b2b",
         "37bc2397-c7d4-4e36-94a4-2bcafddb6f98",
         "1f65005c-e629-4f09-b315-dfb11c0bd7df"
     ],
