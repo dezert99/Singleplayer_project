@@ -12,7 +12,7 @@ x += hSpeed;
 //sprite changes//
 if (hSpeed != 0)
 {
-	image_xscale = sign(hSpeed);
+	image_xscale = sign(hSpeed)*3;
 	sprite_index = spr_malek_imp;
 }
 else
@@ -45,10 +45,8 @@ if (keyMenu)
 {
 	var center_x = camera_x + halfViewWidth;
 	var center_y = camera_y + halfViewHeight;
-	with instance_create_layer(center_x,center_y,"UI",obj_dark)
-	{
-		obj_dark.image_alpha = 0.8;
-	}
+	instance_create_layer(center_x,center_y,"UI",obj_dark)
+
 	state = PLAYERSTATE.MENU;
 }
 

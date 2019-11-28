@@ -1,12 +1,12 @@
 ////movement////
 hSpeed = 0;
 vSpeed = 0;
-gravSpeed = 1;
-walkSpeed = 8;
+gravSpeed = 1.6;
+walkSpeed = 14;
 
 grounded = false;
 
-jump_amt = 15;
+jump_amt = 40;
 //////////////
 
 state = PLAYERSTATE.FREE;
@@ -25,4 +25,4 @@ rand = 0;
 crit_rand = 0;
 crit_chance = 0;
 
-depth = 3;
+//depth = 3;
