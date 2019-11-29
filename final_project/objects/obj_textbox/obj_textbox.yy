@@ -5,16 +5,6 @@
     "name": "obj_textbox",
     "eventList": [
         {
-            "id": "fbb4b210-bdbc-49dc-8527-e267127c5708",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "c286d448-e61f-42c9-9a53-d3460747076d"
-        },
-        {
             "id": "aea16ac9-cecb-41fa-9358-3f0db76accaa",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,6 +22,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "c286d448-e61f-42c9-9a53-d3460747076d"
+        },
+        {
+            "id": "0ff1ebea-1c48-4a66-b5ae-0bce931075e4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
             "m_owner": "c286d448-e61f-42c9-9a53-d3460747076d"
         }
     ],

@@ -6,7 +6,8 @@
     "children": [
         "65659203-5f32-40b5-9ccb-d41715341dba",
         "1d73a206-53c7-4b5a-a0da-164a140a73d1",
-        "0d547383-2dc6-42d4-a106-843d27df5852"
+        "0d547383-2dc6-42d4-a106-843d27df5852",
+        "fa4e72ef-8f38-4ec5-8458-455354244b2b"
     ],
     "filterType": "GMScript",
     "folderName": "Enemy States",

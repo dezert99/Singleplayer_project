@@ -23,6 +23,7 @@ enum ENEMYSTATE
 {
 	FREE,
 	HIT,
-	DEAD
+	DEAD,
+	CHASING
 }
 image_index = irandom(10);
