@@ -11,13 +11,12 @@
         "b314e8a6-56eb-40a9-8fe1-d1f9c66a4c91",
         "f549270c-7578-454a-839b-f51e5c1fddd3",
         "6927211e-bee1-4bd3-bf96-fa4af4ddaf70",
+        "c7dda7bc-07ae-44ca-8227-d7bfc6de2b5b",
+        "804e4e66-5f04-4b6c-a0ba-b2e6f4686fc2",
+        "099c66c8-2382-4b5a-95bc-2ff04e2706b5",
         "bc50775d-f08b-4b9e-94bd-3c81bd9d841b",
         "f404d88c-7e99-40f9-97da-46d90caaebbd",
-        "703374dc-ce07-46aa-9c1e-108026afb24c",
-        "b3d25b58-17f2-4786-bea9-4c5aa3aee6d1",
-        "421dc501-a18d-4709-bb05-82a1d6e2f93f",
-        "8c3fa9b0-3a40-403b-8fef-e7c4d8cb7cb5",
-        "f6a69077-66fe-4c7a-b1f9-4fed5e2b81b8"
+        "7a4b9559-7863-4cbd-af19-f7fbd3619f92"
     ],
     "filterType": "GMObject",
     "folderName": "Scene",
