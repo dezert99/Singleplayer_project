@@ -7,7 +7,8 @@
         "afa17f46-505a-47bf-9bcf-4a0d287afecd",
         "dd65bd43-91c0-4737-8b14-28696d527d00",
         "e3de8c1f-397f-4bc5-a42c-28a1fc8b466f",
-        "c453be04-c849-433d-bbef-bed8e829c545"
+        "c453be04-c849-433d-bbef-bed8e829c545",
+        "2dfb638e-4dcd-4742-b8e9-539153027b56"
     ],
     "filterType": "GMSprite",
     "folderName": "Blurred",
