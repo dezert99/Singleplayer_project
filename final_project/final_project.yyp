@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0aa41c3e-f93b-4781-bc33-64292ea9faa8",
+            "Value": {
+                "id": "485450d3-4a81-4cac-81ac-c892a3465d91",
+                "resourcePath": "sprites\\spr_knight_fall\\spr_knight_fall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ab0ec06-453f-45d5-9013-a70bc74aa998",
             "Value": {
                 "id": "15803355-31f3-48d6-862a-7915cbe6818e",
@@ -340,6 +348,14 @@
                 "id": "fe761dae-29d2-478d-ad55-9f2e4b79cb31",
                 "resourcePath": "views\/432560a6-25f7-441e-a732-2bb69be71a67.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "45f8b83b-78b7-42d8-ac9a-57d0d9f84990",
+            "Value": {
+                "id": "56989de9-7f96-4628-984e-20ebe5991d45",
+                "resourcePath": "sprites\\spr_knight_idle\\spr_knight_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -727,6 +743,14 @@
             }
         },
         {
+            "Key": "b2c2e5c3-bb75-43e8-afd0-0450f6e1c5c0",
+            "Value": {
+                "id": "d7c9e01b-2c7c-4d0c-aecc-e6d65551a9c4",
+                "resourcePath": "sprites\\spr_knight_attack\\spr_knight_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b314e8a6-56eb-40a9-8fe1-d1f9c66a4c91",
             "Value": {
                 "id": "d09a0203-59a3-4315-a4a3-318012c31832",
@@ -903,6 +927,14 @@
             }
         },
         {
+            "Key": "d2c49d38-6ebc-47d0-94c9-e0c0c93bed1d",
+            "Value": {
+                "id": "a022c909-439a-49fd-b3d6-41fca17e5056",
+                "resourcePath": "sprites\\spr_knight_jump\\spr_knight_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d4c4cef1-6cb7-4fe3-b3f8-2db8b891a14e",
             "Value": {
                 "id": "26d11422-7345-4683-bf33-e485f49c6682",
@@ -1067,6 +1099,14 @@
             "Value": {
                 "id": "ade6d052-cc40-48f2-8d04-f1661556a663",
                 "resourcePath": "sprites\/spr_doublegrass1_shadow\/spr_doublegrass1_shadow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f5ca70b4-c92f-4627-9652-e2264ab88a3b",
+            "Value": {
+                "id": "cdeec94d-43de-45e7-b5e6-8cdf34df3cab",
+                "resourcePath": "sprites\\spr_knight_run\\spr_knight_run.yy",
                 "resourceType": "GMSprite"
             }
         },

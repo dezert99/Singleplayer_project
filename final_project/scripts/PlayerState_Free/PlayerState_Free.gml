@@ -12,12 +12,24 @@ x += hSpeed;
 //sprite changes//
 if (hSpeed != 0)
 {
-	image_xscale = sign(hSpeed)*3;
-	sprite_index = spr_malek_imp;
+	image_xscale = sign(hSpeed);
+	sprite_index = spr_knight_run;
+}
+else if !grounded
+{
+	sprite_index = spr_knight_jump;
+	if animation_end() and vSpeed < 0
+	{
+		image_speed = 0;
+	}
+	else
+	{
+		sprite_index = spr_knight_fall
+	}
 }
 else
 {
-	sprite_index = spr_malek_idle;	
+	sprite_index = spr_knight_idle;	
 }
 
 //vert collision//
