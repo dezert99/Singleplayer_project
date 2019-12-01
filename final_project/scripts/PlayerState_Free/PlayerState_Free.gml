@@ -20,7 +20,7 @@ else if !grounded
 	sprite_index = spr_knight_jump;
 	if animation_end() 
 	{
-		image_speed = 0;
+		//image_speed = 0;
 	}
 	if vSpeed > 0 sprite_index = spr_knight_fall
 }
@@ -59,4 +59,3 @@ if (keyMenu)
 
 	state = PLAYERSTATE.MENU;
 }
-
