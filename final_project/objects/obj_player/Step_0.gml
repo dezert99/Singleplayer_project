@@ -9,6 +9,7 @@ switch (state)
 	case PLAYERSTATE.FREE: PlayerState_Free(); break;
 	case PLAYERSTATE.ATTACK_SLASH: PlayerState_AttackSlash(); break;
 	case PLAYERSTATE.ATTACK_COMBO: PlayerState_AttackCombo();break;
+	case PLAYERSTATE.ATTACK_TRIPLE: PlayerState_AttackTriple();break;
 	case PLAYERSTATE.DEATH: PlayerState_Death(); break;
 	case PLAYERSTATE.MENU: PlayerState_Menu(); break;
 }

@@ -11,8 +11,8 @@ if (state = ENEMYSTATE.HIT)
 	{
 		color = c_orange;
 	}
-	draw_text_transformed_color(float_x,float_y,string(damage_taken),1.7,1.7,0,color,color,color,color,1);
-	float_spd = irandom_range(4,7);
+	draw_text_transformed_color(float_x,float_y,string(damage_taken),2.5,2.5,0,color,color,color,color,1);
+	float_spd = irandom_range(10,15);
 	float_y -= float_spd;
 	if (image_xscale == 1) 
 	{

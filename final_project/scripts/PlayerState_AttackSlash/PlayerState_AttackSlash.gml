@@ -1,9 +1,9 @@
 hSpeed = 0;
 vSpeed = 0;
 
-ProcessAttack(spr_slash,spr_slash_HB);
+ProcessAttack(spr_knight_attack,spr_knight_attackHB);
 
-if (keyAttack) && (image_index > 1)
+if (keyAttack) && (image_index > 4)
 {	
 	state = PLAYERSTATE.ATTACK_COMBO;	
 }

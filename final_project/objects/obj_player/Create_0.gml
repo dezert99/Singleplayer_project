@@ -15,6 +15,7 @@ enum PLAYERSTATE
 	FREE,
 	ATTACK_SLASH,
 	ATTACK_COMBO,
+	ATTACK_TRIPLE,
 	DEATH,
 	MENU
 }
@@ -24,5 +25,7 @@ base_damage = 5;
 rand = 0;
 crit_rand = 0;
 crit_chance = 0;
+
+timer = 5;
 
 //depth = 3;
