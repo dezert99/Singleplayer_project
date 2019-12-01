@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "13928244-1e19-42c8-9c62-ae8497d8f025",
+            "Value": {
+                "id": "67b5ab63-0ea3-4a5a-ab05-544b958d3231",
+                "resourcePath": "views\\13928244-1e19-42c8-9c62-ae8497d8f025.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "14e737f3-6c97-4e72-848e-4551d2ea5687",
             "Value": {
                 "id": "2ec15237-2d45-49d2-a376-2c4eeb880e7b",
@@ -156,6 +164,14 @@
                 "id": "616061c6-6f2a-4d2e-8e63-5c59076a214e",
                 "resourcePath": "scripts\/lit\/lit.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "20d6e4fc-9f83-42d4-b8b4-59998447a5db",
+            "Value": {
+                "id": "666bfbed-b263-49fd-bd97-6f48b4fd0dd1",
+                "resourcePath": "objects\\object40\\object40.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -420,6 +436,14 @@
                 "id": "593d4f32-1ce9-44e6-b257-6bd60273e581",
                 "resourcePath": "views\/55e363f6-4af4-4b5d-b995-ec6507686466.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "560a5bad-d164-4296-8f6e-7b4ee6632adb",
+            "Value": {
+                "id": "4c52e432-98f9-49ea-a34c-6e8dabfdc681",
+                "resourcePath": "scripts\\createPotionParticles\\createPotionParticles.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -735,6 +759,14 @@
             }
         },
         {
+            "Key": "a276602a-890c-4f6e-868f-450916215a3f",
+            "Value": {
+                "id": "f02fe2b5-508d-4fc1-9736-7b33ae7e669c",
+                "resourcePath": "sprites\\spr_white\\spr_white.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a582a209-1dbd-4528-86fb-3766083cee14",
             "Value": {
                 "id": "ccf57943-0e90-46cd-b698-882138200661",
@@ -820,6 +852,14 @@
                 "id": "886da7bd-dd36-435b-81ad-e54d15b20e53",
                 "resourcePath": "views\/b6dad94c-dd80-4b8b-8187-79ca815f261c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b93a3b30-0ff8-4f4c-8d7a-1f850f5e8e55",
+            "Value": {
+                "id": "1984f227-50b7-4613-8b5c-9e2fe3292cb8",
+                "resourcePath": "objects\\obj_potion_particle\\obj_potion_particle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1223,7 +1263,8 @@
         "0d547383-2dc6-42d4-a106-843d27df5852",
         "fa4e72ef-8f38-4ec5-8458-455354244b2b",
         "37bc2397-c7d4-4e36-94a4-2bcafddb6f98",
-        "1f65005c-e629-4f09-b315-dfb11c0bd7df"
+        "1f65005c-e629-4f09-b315-dfb11c0bd7df",
+        "560a5bad-d164-4296-8f6e-7b4ee6632adb"
     ],
     "tutorial": ""
 }
