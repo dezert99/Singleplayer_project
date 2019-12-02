@@ -26,4 +26,11 @@ enum ENEMYSTATE
 	DEAD,
 	CHASING
 }
+
+base_damage = 2;
+rand = 0;
+crit_rand = 0;
+crit_chance = 0;
+
+
 image_index = irandom(10);
