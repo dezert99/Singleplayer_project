@@ -1,4 +1,4 @@
-vSpeed += gravSpeed
+ vSpeed += gravSpeed
 hit_timer -= 1
 image_blend = c_red;
 if hit_timer < 5 flash = false;
