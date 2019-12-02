@@ -50,7 +50,7 @@
             "Key": "0aa41c3e-f93b-4781-bc33-64292ea9faa8",
             "Value": {
                 "id": "485450d3-4a81-4cac-81ac-c892a3465d91",
-                "resourcePath": "sprites\/spr_knight_fall\/spr_knight_fall.yy",
+                "resourcePath": "sprites\\spr_knight_fall\\spr_knight_fall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -106,7 +106,7 @@
             "Key": "13928244-1e19-42c8-9c62-ae8497d8f025",
             "Value": {
                 "id": "67b5ab63-0ea3-4a5a-ab05-544b958d3231",
-                "resourcePath": "views\/13928244-1e19-42c8-9c62-ae8497d8f025.yy",
+                "resourcePath": "views\\13928244-1e19-42c8-9c62-ae8497d8f025.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -170,7 +170,7 @@
             "Key": "20d6e4fc-9f83-42d4-b8b4-59998447a5db",
             "Value": {
                 "id": "666bfbed-b263-49fd-bd97-6f48b4fd0dd1",
-                "resourcePath": "objects\/object40\/object40.yy",
+                "resourcePath": "objects\\object40\\object40.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -194,7 +194,7 @@
             "Key": "26bcb3ad-407e-40bc-b9c2-e51995e912be",
             "Value": {
                 "id": "3e3cf669-572e-49f0-bcac-fe46636c2002",
-                "resourcePath": "sprites\/spr_knight_attackHB\/spr_knight_attackHB.yy",
+                "resourcePath": "sprites\\spr_knight_attackHB\\spr_knight_attackHB.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -378,7 +378,7 @@
             "Key": "45f8b83b-78b7-42d8-ac9a-57d0d9f84990",
             "Value": {
                 "id": "56989de9-7f96-4628-984e-20ebe5991d45",
-                "resourcePath": "sprites\/spr_knight_idle\/spr_knight_idle.yy",
+                "resourcePath": "sprites\\spr_knight_idle\\spr_knight_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -410,7 +410,7 @@
             "Key": "50510266-1737-4a5e-b11f-d17916096a78",
             "Value": {
                 "id": "33c7ad32-bdf5-4621-b38d-15488650c5a7",
-                "resourcePath": "sprites\/spr_knight_attack_combo_1HB\/spr_knight_attack_combo_1HB.yy",
+                "resourcePath": "sprites\\spr_knight_attack_combo_1HB\\spr_knight_attack_combo_1HB.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -442,7 +442,7 @@
             "Key": "560a5bad-d164-4296-8f6e-7b4ee6632adb",
             "Value": {
                 "id": "4c52e432-98f9-49ea-a34c-6e8dabfdc681",
-                "resourcePath": "scripts\/createPotionParticles\/createPotionParticles.yy",
+                "resourcePath": "scripts\\createPotionParticles\\createPotionParticles.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -466,7 +466,7 @@
             "Key": "5e27a540-89a5-4cd9-a9b3-dba80fbcb188",
             "Value": {
                 "id": "7ad82b39-5de0-404e-89b8-4fc9477ab554",
-                "resourcePath": "sprites\/spr_knight_attack_combo_1\/spr_knight_attack_combo_1.yy",
+                "resourcePath": "sprites\\spr_knight_attack_combo_1\\spr_knight_attack_combo_1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -682,7 +682,7 @@
             "Key": "8ce15e0d-b992-4b5d-ae1b-76356d124c65",
             "Value": {
                 "id": "106d9edc-ace4-47c4-9b87-4fdafa5f9c1c",
-                "resourcePath": "sprites\/spr_knight_attack_combo_2\/spr_knight_attack_combo_2.yy",
+                "resourcePath": "sprites\\spr_knight_attack_combo_2\\spr_knight_attack_combo_2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -703,14 +703,6 @@
             }
         },
         {
-            "Key": "92916eb9-3bcf-43b8-902f-07d5a996f6bf",
-            "Value": {
-                "id": "15c02452-d16b-4d9c-b644-6ac6541e46b8",
-                "resourcePath": "scripts\/PlayerState_TookDamage\/PlayerState_TookDamage.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "9555e46a-a271-47d6-a3b9-c370c3f169dd",
             "Value": {
                 "id": "a54354ad-e3a9-423f-87c9-6847b915400b",
@@ -722,7 +714,7 @@
             "Key": "960a6588-4bb6-4aca-bd89-87f9fd782ab3",
             "Value": {
                 "id": "e6c6b898-820e-41a1-9937-bcf81faa68f2",
-                "resourcePath": "sprites\/spr_knight_attack_combo_2HB\/spr_knight_attack_combo_2HB.yy",
+                "resourcePath": "sprites\\spr_knight_attack_combo_2HB\\spr_knight_attack_combo_2HB.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -770,7 +762,7 @@
             "Key": "a276602a-890c-4f6e-868f-450916215a3f",
             "Value": {
                 "id": "f02fe2b5-508d-4fc1-9736-7b33ae7e669c",
-                "resourcePath": "sprites\/spr_white\/spr_white.yy",
+                "resourcePath": "sprites\\spr_white\\spr_white.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -826,7 +818,7 @@
             "Key": "b2c2e5c3-bb75-43e8-afd0-0450f6e1c5c0",
             "Value": {
                 "id": "d7c9e01b-2c7c-4d0c-aecc-e6d65551a9c4",
-                "resourcePath": "sprites\/spr_knight_attack\/spr_knight_attack.yy",
+                "resourcePath": "sprites\\spr_knight_attack\\spr_knight_attack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -866,7 +858,7 @@
             "Key": "b93a3b30-0ff8-4f4c-8d7a-1f850f5e8e55",
             "Value": {
                 "id": "1984f227-50b7-4613-8b5c-9e2fe3292cb8",
-                "resourcePath": "objects\/obj_potion_particle\/obj_potion_particle.yy",
+                "resourcePath": "objects\\obj_potion_particle\\obj_potion_particle.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -914,7 +906,7 @@
             "Key": "c112ac18-b1a5-44e8-95e2-3ac55b1f3cc2",
             "Value": {
                 "id": "0a20f116-a6a3-4cde-ad4d-6def74b340a6",
-                "resourcePath": "scripts\/PlayerState_AttackTriple\/PlayerState_AttackTriple.yy",
+                "resourcePath": "scripts\\PlayerState_AttackTriple\\PlayerState_AttackTriple.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1026,7 +1018,7 @@
             "Key": "d2c49d38-6ebc-47d0-94c9-e0c0c93bed1d",
             "Value": {
                 "id": "a022c909-439a-49fd-b3d6-41fca17e5056",
-                "resourcePath": "sprites\/spr_knight_jump\/spr_knight_jump.yy",
+                "resourcePath": "sprites\\spr_knight_jump\\spr_knight_jump.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1202,7 +1194,7 @@
             "Key": "f5ca70b4-c92f-4627-9652-e2264ab88a3b",
             "Value": {
                 "id": "cdeec94d-43de-45e7-b5e6-8cdf34df3cab",
-                "resourcePath": "sprites\/spr_knight_run\/spr_knight_run.yy",
+                "resourcePath": "sprites\\spr_knight_run\\spr_knight_run.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1266,7 +1258,6 @@
         "35c93b6d-fb3e-4ece-9831-86c9e3474089",
         "41adb7cf-ccd1-4aff-8f5d-45f7913ac074",
         "322a2006-a852-479e-b486-674f85614ef9",
-        "92916eb9-3bcf-43b8-902f-07d5a996f6bf",
         "65659203-5f32-40b5-9ccb-d41715341dba",
         "1d73a206-53c7-4b5a-a0da-164a140a73d1",
         "0d547383-2dc6-42d4-a106-843d27df5852",

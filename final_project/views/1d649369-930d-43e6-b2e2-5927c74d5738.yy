@@ -16,7 +16,8 @@
         "099c66c8-2382-4b5a-95bc-2ff04e2706b5",
         "bc50775d-f08b-4b9e-94bd-3c81bd9d841b",
         "f404d88c-7e99-40f9-97da-46d90caaebbd",
-        "7a4b9559-7863-4cbd-af19-f7fbd3619f92"
+        "7a4b9559-7863-4cbd-af19-f7fbd3619f92",
+        "20d6e4fc-9f83-42d4-b8b4-59998447a5db"
     ],
     "filterType": "GMObject",
     "folderName": "Scene",

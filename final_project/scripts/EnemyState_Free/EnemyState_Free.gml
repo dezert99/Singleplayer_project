@@ -9,6 +9,7 @@ image_blend = c_white;
 
 if (place_meeting(x+hSpeed,y,obj_invisible)){
 	hSpeed *= -1
+	image_xscale = sign(hSpeed);
 }
 
 if (place_meeting(x+hSpeed,y,oWall))
