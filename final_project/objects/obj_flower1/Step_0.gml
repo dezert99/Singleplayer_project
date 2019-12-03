@@ -4,7 +4,7 @@ if timer > 0
 }
 else
 {
-	createPotionParticles(x,y,10);
+	createPotionParticles(x+75,y-10,10);
 	timer = 10;
 	
 }

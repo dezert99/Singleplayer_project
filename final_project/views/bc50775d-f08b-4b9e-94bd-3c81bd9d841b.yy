@@ -8,7 +8,8 @@
         "341f8024-8dc1-489f-9f72-0e5028a2cc41",
         "5a908368-cb09-4849-b514-23ae2f437181",
         "9aeb4240-fae7-4903-bb8c-f6d1b88c2323",
-        "91c646d3-6e4c-49c4-867e-3ebd21ad8bdf"
+        "91c646d3-6e4c-49c4-867e-3ebd21ad8bdf",
+        "c7ea522a-5e5a-4614-9642-6b9d940575f9"
     ],
     "filterType": "GMObject",
     "folderName": "Blurred",
