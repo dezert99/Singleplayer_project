@@ -29,7 +29,8 @@ enum PLAYERSTATE
 	ATTACK_TRIPLE,
 	DEATH,
 	MENU,
-	TOOK_DAMAGE
+	TOOK_DAMAGE,
+	FROZEN
 }
 
 hitByAttack = ds_list_create();

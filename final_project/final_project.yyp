@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "06840c26-cc1d-436d-bc4a-c51c80b6e2f9",
+            "Value": {
+                "id": "1185b1ed-d2ed-4929-b4f3-b8c4a673740a",
+                "resourcePath": "objects\/obj_purchasable_item\/obj_purchasable_item.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "099c66c8-2382-4b5a-95bc-2ff04e2706b5",
             "Value": {
                 "id": "00eb3251-9de1-4a97-89e7-17615ac27fce",
@@ -108,6 +116,14 @@
                 "id": "8fd9a0fe-64e7-494f-9e0a-12ef5dcedb69",
                 "resourcePath": "scripts\/SlimeState_Free\/SlimeState_Free.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "106e5262-ac77-4bb8-993c-6f6eb74cb388",
+            "Value": {
+                "id": "cf715a48-2417-46f5-b112-0dc28b08b6e0",
+                "resourcePath": "sprites\/spr_shovel\/spr_shovel.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1263,6 +1279,14 @@
             }
         },
         {
+            "Key": "f1a00fc6-db24-4e5f-99fb-26e3a886c71a",
+            "Value": {
+                "id": "1dee6bd1-8ebe-469e-930c-a4bf0149e1fc",
+                "resourcePath": "objects\/onj_hermit_npc\/onj_hermit_npc.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f302409b-9c78-4c1d-8c17-acd197893c59",
             "Value": {
                 "id": "eb27119f-af22-44d8-8b14-0790f3ee2424",
@@ -1284,6 +1308,14 @@
                 "id": "8190c991-358c-4477-b2f2-55de0411ca8d",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f41dd6df-70f1-4334-aa72-25206700c467",
+            "Value": {
+                "id": "c103641f-14e3-44f8-ad86-e4f884b5bb27",
+                "resourcePath": "scripts\/giveItem\/giveItem.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1315,6 +1347,14 @@
             "Value": {
                 "id": "8768deea-250d-4a61-89a9-5efe9693b817",
                 "resourcePath": "objects\/obj_blackline_gradient\/obj_blackline_gradient.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f6c21444-62cd-4a53-9b46-97c35b722361",
+            "Value": {
+                "id": "68f95561-ae40-40ac-b0f0-315edb0f7de1",
+                "resourcePath": "objects\/obj_shovel\/obj_shovel.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1386,7 +1426,8 @@
         "37bc2397-c7d4-4e36-94a4-2bcafddb6f98",
         "1f65005c-e629-4f09-b315-dfb11c0bd7df",
         "560a5bad-d164-4296-8f6e-7b4ee6632adb",
-        "0f1daee4-dab8-4acc-b097-47eff6ebd55a"
+        "0f1daee4-dab8-4acc-b097-47eff6ebd55a",
+        "f41dd6df-70f1-4334-aa72-25206700c467"
     ],
     "tutorial": ""
 }
