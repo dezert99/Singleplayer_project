@@ -1119,6 +1119,14 @@
             }
         },
         {
+            "Key": "d55d0a19-9676-4077-b111-fa5957bff143",
+            "Value": {
+                "id": "b94f80cb-7f66-43ab-95af-242c803010f0",
+                "resourcePath": "sprites\/spr_leaves1_blurred\/spr_leaves1_blurred.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d5ee4c47-ce94-4d08-ac26-d1aba7dd990a",
             "Value": {
                 "id": "c1a00a96-09fa-481f-87e9-ee30396d98b4",
