@@ -1,3 +1,5 @@
+event_inherited();
+
 myTextbox = noone
 chatTriggered = false
 
