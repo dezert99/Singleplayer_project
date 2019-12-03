@@ -15,12 +15,12 @@ slot_count = 0;
 row_count = 1;
 col_count = 1;
 
-for(i = 0;i < num_cols; i+=1)
+for(i = 1;i <= num_cols; i+=1)
 {
-	slot_x = inv_size_x * row;
-	for (j = 0; j < num_rows; j+=1)
+	slot_x = inv_size_x * i/num_cols
+	for (j = 1; j <= num_rows; j+=1)
 	{
-		slot_y = inv_size_y * row;
+		slot_y = inv_size_y * j/num_rows;
 		slot = [slot_x,slot_y];
 		ds_list_add(slots,slot);
 	}
