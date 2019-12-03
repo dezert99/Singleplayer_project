@@ -5,11 +5,23 @@ inv_size_x = 400; //always divisible by 100
 inv_size_y = 600; //always divisible by 100
 num_cols = inv_size_x / 100;
 num_rows = inv_size_y / 100;
-col = inv_size_x / num_rows
-row = inv_size_y / num_cols
+col = inv_size_x / num_cols
+row = inv_size_y / num_rows
 slot = [];
+slots = ds_list_create();
 slot_x = 0;
 slot_y = 0;
 slot_count = 0;
-row_count = 0;
-col_count = 0;
+row_count = 1;
+col_count = 1;
+
+for(i = 0;i < num_cols; i+=1)
+{
+	slot_x = inv_size_x * row;
+	for (j = 0; j < num_rows; j+=1)
+	{
+		slot_y = inv_size_y * row;
+		slot = [slot_x,slot_y];
+		ds_list_add(slots,slot);
+	}
+}
