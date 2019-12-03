@@ -87,11 +87,27 @@
             }
         },
         {
+            "Key": "0e4b41ff-2193-43cf-b952-32b91b10dc2c",
+            "Value": {
+                "id": "5ff7e729-539b-46ce-bb3c-5347f1db9418",
+                "resourcePath": "sprites\\baby_slime_1\\baby_slime_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ed3de88-4a84-4772-b153-7c0cc7e87d60",
             "Value": {
                 "id": "14972b38-5d11-41d1-a255-ebb58f4ce1ab",
                 "resourcePath": "sprites\/spr_flower1\/spr_flower1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0f1daee4-dab8-4acc-b097-47eff6ebd55a",
+            "Value": {
+                "id": "8fd9a0fe-64e7-494f-9e0a-12ef5dcedb69",
+                "resourcePath": "scripts\\SlimeState_Free\\SlimeState_Free.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -340,6 +356,14 @@
                 "id": "d74174ea-eb29-48d9-b577-41f1e1fc1a75",
                 "resourcePath": "sprites\/spr_doublegrass1\/spr_doublegrass1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3caf672a-9c78-4c03-8fe4-fefefb460112",
+            "Value": {
+                "id": "66e759c0-48ae-4bdf-a365-92625c4f2059",
+                "resourcePath": "objects\\obj_sl1m3\\obj_sl1m3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1337,7 +1361,8 @@
         "fa4e72ef-8f38-4ec5-8458-455354244b2b",
         "37bc2397-c7d4-4e36-94a4-2bcafddb6f98",
         "1f65005c-e629-4f09-b315-dfb11c0bd7df",
-        "560a5bad-d164-4296-8f6e-7b4ee6632adb"
+        "560a5bad-d164-4296-8f6e-7b4ee6632adb",
+        "0f1daee4-dab8-4acc-b097-47eff6ebd55a"
     ],
     "tutorial": ""
 }
