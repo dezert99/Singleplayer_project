@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "06840c26-cc1d-436d-bc4a-c51c80b6e2f9",
+            "Value": {
+                "id": "1185b1ed-d2ed-4929-b4f3-b8c4a673740a",
+                "resourcePath": "objects\/obj_purchasable_item\/obj_purchasable_item.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "099c66c8-2382-4b5a-95bc-2ff04e2706b5",
             "Value": {
                 "id": "00eb3251-9de1-4a97-89e7-17615ac27fce",
@@ -108,6 +116,14 @@
                 "id": "8fd9a0fe-64e7-494f-9e0a-12ef5dcedb69",
                 "resourcePath": "scripts\/SlimeState_Free\/SlimeState_Free.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "106e5262-ac77-4bb8-993c-6f6eb74cb388",
+            "Value": {
+                "id": "cf715a48-2417-46f5-b112-0dc28b08b6e0",
+                "resourcePath": "sprites\/spr_shovel\/spr_shovel.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1323,6 +1339,14 @@
             "Value": {
                 "id": "8768deea-250d-4a61-89a9-5efe9693b817",
                 "resourcePath": "objects\/obj_blackline_gradient\/obj_blackline_gradient.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f6c21444-62cd-4a53-9b46-97c35b722361",
+            "Value": {
+                "id": "68f95561-ae40-40ac-b0f0-315edb0f7de1",
+                "resourcePath": "objects\/obj_shovel\/obj_shovel.yy",
                 "resourceType": "GMObject"
             }
         },
