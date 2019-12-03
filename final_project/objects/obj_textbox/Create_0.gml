@@ -12,4 +12,6 @@ creator = noone;
 char_counter = 0;
 name = noone
 
+item_to_give = "";
+
 

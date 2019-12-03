@@ -7,6 +7,8 @@ flash = false;
 state = ENEMYSTATE.FREE;
 hit_timer = 0;
 hit_timer_set = 10;
+gold_drop = 4;
+gave_gold = false;
 globalvar damage_taken;
 damage_taken = 0;
 //frameCount = 0;
