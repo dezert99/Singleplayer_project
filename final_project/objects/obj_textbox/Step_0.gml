@@ -9,7 +9,7 @@ if(keyboard_check_pressed(vk_backspace)){
 	else {
 		instance_destroy();
 		creator.reset = true;
-		if(item_to_give){
+		if(item_to_give != ""){
 			giveItem(item_to_give);
 		}	
 	}

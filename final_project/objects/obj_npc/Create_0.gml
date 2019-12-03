@@ -13,3 +13,4 @@ reset = false;
 my_name = "Pepe"
 
 item_to_give = "";
+gave_item = false;
