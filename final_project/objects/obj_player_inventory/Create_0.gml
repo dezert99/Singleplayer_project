@@ -1,6 +1,9 @@
-globalvar hasKey, hasBook, slot_count;
+globalvar hasKey, hasBook,hasShovel, slot_count, gold;
 hasKey = false;
 hasBook = false;
+hasshovel = false;
+gold = 0;
+
 inv_size_x = 400; //always divisible by 100
 inv_size_y = 600; //always divisible by 100
 num_cols = inv_size_x / 100;

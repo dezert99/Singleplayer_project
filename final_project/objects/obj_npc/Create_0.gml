@@ -11,3 +11,5 @@ myText[2] = "But I love it so."
 reset = false;
 
 my_name = "Pepe"
+
+item_to_give = "";
