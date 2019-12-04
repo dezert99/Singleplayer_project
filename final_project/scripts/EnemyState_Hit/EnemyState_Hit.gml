@@ -2,7 +2,7 @@ vSpeed += grav
 hit_timer -= 1
 image_blend = c_red;
 if hit_timer < 5 flash = false;
-if (image_xscale == 1)
+if obj_player.x > x
 {
 	hSpeed = -20;
 }
