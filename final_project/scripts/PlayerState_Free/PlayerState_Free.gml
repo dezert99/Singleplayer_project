@@ -59,3 +59,16 @@ if (keyMenu)
 
 	state = PLAYERSTATE.MENU;
 }
+
+if place_meeting(x,y,obj_bush1) and hSpeed != 0
+{
+	if leaf_timer <= 0
+	{
+		createLeaves(x,y,4);
+		leaf_timer = 20;
+	}
+	else
+	{
+		leaf_timer -= 1;
+	}
+}

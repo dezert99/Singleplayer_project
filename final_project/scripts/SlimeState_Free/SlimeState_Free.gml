@@ -44,7 +44,7 @@ if (place_meeting(x,y+vSpeed,oWall))
 else
 {
 	grounded = false;
-	vSpeed += gravSpeed;
+	vSpeed += grav;
 }
 y += vSpeed;
 if (grounded and ! key_jump)

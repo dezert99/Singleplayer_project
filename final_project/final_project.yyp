@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "06422d1d-0d16-401f-ac3e-9011cc79aeb7",
+            "Value": {
+                "id": "ea9247c3-c0bf-49e5-9b24-2fc5010088c8",
+                "resourcePath": "scripts\\createLeaves\\createLeaves.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "06840c26-cc1d-436d-bc4a-c51c80b6e2f9",
             "Value": {
                 "id": "1185b1ed-d2ed-4929-b4f3-b8c4a673740a",
@@ -244,6 +252,14 @@
                 "id": "cc823631-4f15-4591-8804-2c024c6707d1",
                 "resourcePath": "objects\/obj_manager\/obj_manager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "28b2405b-1e32-45cc-8ae2-49179a56853d",
+            "Value": {
+                "id": "cd10656e-6b12-4f5e-a3db-33a2b5dce2f9",
+                "resourcePath": "views\\28b2405b-1e32-45cc-8ae2-49179a56853d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -831,6 +847,14 @@
             }
         },
         {
+            "Key": "98261a1d-4bbf-47cf-9b12-b81de33e10e9",
+            "Value": {
+                "id": "c841d32f-21a5-4907-801d-a74bb711c494",
+                "resourcePath": "objects\\obj_sl1m31\\obj_sl1m31.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9a0d74f2-ad62-4506-bc9c-9be9caa5a26f",
             "Value": {
                 "id": "67c4c937-40dd-41bf-b4d7-a5cbf781a870",
@@ -964,6 +988,14 @@
                 "id": "1984f227-50b7-4613-8b5c-9e2fe3292cb8",
                 "resourcePath": "objects\/obj_potion_particle\/obj_potion_particle.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ba540799-0fcc-430a-a3a9-4472ce9637e4",
+            "Value": {
+                "id": "7cf56ef8-1f04-48bd-83f2-ab786b7ea1f1",
+                "resourcePath": "rooms\\rm_cave\\rm_cave.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1425,9 +1457,10 @@
         "fa4e72ef-8f38-4ec5-8458-455354244b2b",
         "37bc2397-c7d4-4e36-94a4-2bcafddb6f98",
         "1f65005c-e629-4f09-b315-dfb11c0bd7df",
-        "560a5bad-d164-4296-8f6e-7b4ee6632adb",
         "0f1daee4-dab8-4acc-b097-47eff6ebd55a",
-        "f41dd6df-70f1-4334-aa72-25206700c467"
+        "f41dd6df-70f1-4334-aa72-25206700c467",
+        "560a5bad-d164-4296-8f6e-7b4ee6632adb",
+        "06422d1d-0d16-401f-ac3e-9011cc79aeb7"
     ],
     "tutorial": ""
 }

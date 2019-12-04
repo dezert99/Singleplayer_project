@@ -18,7 +18,7 @@ hit_timer_set = 10;
 hit_direction = 0;
 //////////////
 
-
+leaf_timer = 0;
 
 state = PLAYERSTATE.FREE;
 enum PLAYERSTATE

@@ -4,11 +4,11 @@ image_blend = c_red;
 if hit_timer < 5 flash = false;
 if (image_xscale == 1)
 {
-	hSpeed = -10;
+	hSpeed = -20;
 }
 else
 {
-	hSpeed = 10;
+	hSpeed = 20;
 }
 if hit_timer > 7 vSpeed -= 4
 if (place_meeting(x+hSpeed,y,oWall))
