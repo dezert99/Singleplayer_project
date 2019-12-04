@@ -4,10 +4,12 @@
     "mvc": "1.1",
     "name": "13928244-1e19-42c8-9c62-ae8497d8f025",
     "children": [
-        "b93a3b30-0ff8-4f4c-8d7a-1f850f5e8e55"
+        "b93a3b30-0ff8-4f4c-8d7a-1f850f5e8e55",
+        "68d4d505-fb43-4477-b280-97d2be38632c",
+        "d7cec623-9d9e-413c-9d52-ce15e382d0c4"
     ],
     "filterType": "GMObject",
-    "folderName": "particles",
+    "folderName": "particles and FX",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

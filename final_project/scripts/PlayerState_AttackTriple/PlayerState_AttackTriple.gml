@@ -8,6 +8,12 @@ if (animation_end())
 	sprite_index = spr_malek_idle;
 	state = PLAYERSTATE.FREE;
 }
+if (place_meeting(x+hSpeed,y,oWall))
+{
+	var onePixel = sign(hSpeed);
+	while (!place_meeting(x+onePixel,y,oWall)) x += onePixel;
+	hSpeed = 0;
+}
 if image_xscale == 1 x += hSpeed;
 if image_xscale == -1 x -= hSpeed;
 hSpeed -= 0.4;

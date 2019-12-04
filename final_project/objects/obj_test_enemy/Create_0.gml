@@ -1,4 +1,4 @@
-hSpeed = 0;
+ hSpeed = 0;
 vSpeed = 0;
 grav = 0.7;
 hitNow = false;

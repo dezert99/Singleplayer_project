@@ -1,0 +1,15 @@
+{
+    "id": "b60b2cea-b68e-4142-aa7d-2ed90b3ce487",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "b60b2cea-b68e-4142-aa7d-2ed90b3ce487",
+    "children": [
+        "f6c21444-62cd-4a53-9b46-97c35b722361",
+        "d72eee31-4f15-4203-887a-9c8d32d83e6c",
+        "06840c26-cc1d-436d-bc4a-c51c80b6e2f9"
+    ],
+    "filterType": "GMObject",
+    "folderName": "items",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}
