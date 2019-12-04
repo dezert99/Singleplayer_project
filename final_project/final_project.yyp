@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "013c9668-50a7-4e49-bfdb-047f39d5333d",
+            "Value": {
+                "id": "8554b9e7-8133-4a1e-8553-f403822e7df3",
+                "resourcePath": "sprites\/spr_dirt_side\/spr_dirt_side.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "06840c26-cc1d-436d-bc4a-c51c80b6e2f9",
             "Value": {
                 "id": "1185b1ed-d2ed-4929-b4f3-b8c4a673740a",
@@ -535,6 +543,14 @@
             }
         },
         {
+            "Key": "5e78c8d6-e83b-41b8-9340-f9c723e95bbe",
+            "Value": {
+                "id": "1878c8d5-5592-4fe6-ae1a-6e65ab6977c0",
+                "resourcePath": "objects\/obj_dirt_side\/obj_dirt_side.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "63839ba4-4ba8-4fc3-9721-e605e6e4236c",
             "Value": {
                 "id": "71ad312b-5950-4193-99fa-9e4b82c124a8",
@@ -703,6 +719,14 @@
             }
         },
         {
+            "Key": "7e4b5a35-9582-4757-a97b-7ef3eb3a273e",
+            "Value": {
+                "id": "082fac35-1a64-49f8-ad8e-abd23815fdf4",
+                "resourcePath": "sprites\/spr_dirt_particle\/spr_dirt_particle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "801e8dbe-7af7-4327-a06d-93bc59bf5c36",
             "Value": {
                 "id": "4b8f754d-7ce5-4d7e-bd33-19c91be55dd6",
@@ -732,6 +756,14 @@
                 "id": "4cc67e9b-ce90-4746-9933-7200ee29d695",
                 "resourcePath": "views\/868f1bed-604f-4373-aaf5-6f8adb795466.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "883a77a0-9464-4bf6-99d7-d826c277f0b2",
+            "Value": {
+                "id": "d134b785-96c7-4676-a5b5-2ddcfb8eaafe",
+                "resourcePath": "objects\/obj_dirt_particle\/obj_dirt_particle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -775,6 +807,14 @@
             }
         },
         {
+            "Key": "90a7194b-8dfb-4e44-986f-b077bdafed67",
+            "Value": {
+                "id": "4c0854b1-a675-4d71-96e4-df1d9fd6f942",
+                "resourcePath": "objects\/obj_dirt_main\/obj_dirt_main.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "90b25bee-9e05-4c3a-8018-cef881846278",
             "Value": {
                 "id": "831bb1d4-96c5-4a57-b5c4-f26253520a9a",
@@ -804,6 +844,14 @@
                 "id": "a54354ad-e3a9-423f-87c9-6847b915400b",
                 "resourcePath": "objects\/obj_doublegrass1\/obj_doublegrass1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "955f8757-60f5-42d7-93ed-4a81ab9e70eb",
+            "Value": {
+                "id": "792da16d-a460-4987-bc49-e1e0e59f5fd2",
+                "resourcePath": "sprites\/spr_dirt_main\/spr_dirt_main.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -884,6 +932,14 @@
                 "id": "9c6dc093-25c9-4b81-ace3-08658654c270",
                 "resourcePath": "views\/aa2de9d2-d81c-410e-a82b-839f349eeb22.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ac4a1c25-3cee-4f50-9fe0-a47f6dddf04c",
+            "Value": {
+                "id": "1898cf1d-54bb-43e5-b7b0-a7396e859df0",
+                "resourcePath": "sprites\/spr_dirt_corner\/spr_dirt_corner.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -987,6 +1043,14 @@
             "Value": {
                 "id": "dcc443f7-ddc2-410e-8b7b-edc83ff3cf75",
                 "resourcePath": "objects\/oWall\/oWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c0628fd1-3101-4e9c-8b74-e1899febe022",
+            "Value": {
+                "id": "c814390e-8aed-43b3-87c2-673af94afa82",
+                "resourcePath": "objects\/obj_dirt_corner\/obj_dirt_corner.yy",
                 "resourceType": "GMObject"
             }
         },
