@@ -28,7 +28,7 @@ enum ENEMYSTATE
 	CHASING
 }
 
-base_damage = 2;
+base_damage = 4;
 rand = 0;
 crit_rand = 0;
 crit_chance = 0;

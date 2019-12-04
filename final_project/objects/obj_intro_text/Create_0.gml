@@ -1,5 +1,5 @@
 x = room_width / 2
-y = room_width / 2
+y = room_height / 2
 
 audio_play_sound(intro_strings_v1_big_rough,1,true);
 
@@ -13,5 +13,6 @@ sentence[6] = "And with it…"
 sentence[7] = "Save a nation in decay…"
 
 timer = 300;
+timer_set = 300;
 sent_count = 0;
-fade = 1;
+fade = 0.4;

@@ -6,19 +6,18 @@ if sent_count < 8
 	if (timer <= 0)
 	{
 		sent_count += 1;
-		timer = 300;
+		timer = timer_set;
 	}
 	else
 	{
 		if timer < 60
 		{
-			fade -= 0.04
+			fade -= 0.05
 		}
-		if timer <= 300 and timer >= 60
+		if timer <= timer_set and timer >= 60
 		{
-			fade += 0.04
+			fade += 0.02
 		}
-
 		draw_text_color(x,y,sentence[sent_count],c_white,c_white,c_white,c_white,fade);
 		timer -= 1;
 	}

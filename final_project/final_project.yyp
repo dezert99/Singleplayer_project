@@ -1306,7 +1306,7 @@
             "Key": "d7cec623-9d9e-413c-9d52-ce15e382d0c4",
             "Value": {
                 "id": "4319cd19-b80c-4a28-9adf-97e01063a72b",
-                "resourcePath": "objects\/obj_dark\/obj_dark.yy",
+                "resourcePath": "objects\\obj_fade_in\\obj_fade_in.yy",
                 "resourceType": "GMObject"
             }
         },

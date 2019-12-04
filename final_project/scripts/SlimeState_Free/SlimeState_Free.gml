@@ -70,4 +70,11 @@ if vSpeed > 1
 	image_xscale = lerp(1,0.8,0.2); 
 	image_yscale = lerp(1,1.6,0.2);
 }
+
+if(place_meeting(x+hSpeed,y,obj_player) && !player_invincible)
+{
+	player.player_damage_taken = base_damage;
+	player.state = PLAYERSTATE.TOOK_DAMAGE;
+	player.hit_direction = image_xscale;
+}
 //if (keyAttack) state = PLAYERSTATE.ATTACK_SLASH;
