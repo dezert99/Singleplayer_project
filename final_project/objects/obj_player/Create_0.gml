@@ -47,3 +47,5 @@ player_damage_taken = 0;
 
 invincibility_timer_max = 60;
 invincibility_timer = 0;
+
+gold = 0;

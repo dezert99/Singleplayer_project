@@ -1,7 +1,7 @@
 vSpeed += grav;
 hSpeed = 0;
-player = obj_player
-player_invincible = player.invincibility_timer != 0;
+player = obj_player;
+player_invincible = obj_player.invincibility_timer != 0;
 
 if(place_meeting(x+hSpeed,y,player) && !player_invincible){
 	player.player_damage_taken = base_damage;

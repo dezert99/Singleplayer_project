@@ -33,5 +33,6 @@ rand = 0;
 crit_rand = 0;
 crit_chance = 0;
 
+player_invincible = false;
 
 image_index = irandom(10);
