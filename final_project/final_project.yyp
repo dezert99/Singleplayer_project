@@ -786,7 +786,7 @@
             "Key": "89343b5b-e02d-4d98-b87b-c74ef4a8ca1f",
             "Value": {
                 "id": "d945023e-f681-41f6-a992-e17a9f000703",
-                "resourcePath": "rooms\/rm_game\/rm_game.yy",
+                "resourcePath": "rooms\\rm_forest\\rm_forest.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -900,6 +900,14 @@
                 "id": "b076f612-ef84-4164-a710-f9fb1d1816c9",
                 "resourcePath": "views\\98361503-226b-444f-b809-20aacf3efecb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "98ebadfd-2aa2-49eb-8176-70b97ec441f6",
+            "Value": {
+                "id": "a1b0b4b9-c4fa-4510-ac13-69c7db389aee",
+                "resourcePath": "sounds\\intro\\intro.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1023,6 +1031,14 @@
             }
         },
         {
+            "Key": "b35bb1de-ddbb-421d-9c4c-1a6f118f89f7",
+            "Value": {
+                "id": "27432495-e8f7-4412-a800-31dfa8fcb085",
+                "resourcePath": "sounds\\intro_strings_v1_big_rough\\intro_strings_v1_big_rough.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b3d25b58-17f2-4786-bea9-4c5aa3aee6d1",
             "Value": {
                 "id": "5cdba575-adb9-4d91-8ef0-b5111cfc5ae7",
@@ -1092,6 +1108,14 @@
                 "id": "08d927d6-35cf-4046-a263-7808ad62e62e",
                 "resourcePath": "sprites\/spr_malek_idle\/spr_malek_idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c0d7c640-8a64-48af-8cfb-4baa360751d1",
+            "Value": {
+                "id": "efab7c83-5b6d-4cad-82a1-01523efe832b",
+                "resourcePath": "sounds\\forestv1_rough_\\forestv1_rough_.yy",
+                "resourceType": "GMSound"
             }
         },
         {

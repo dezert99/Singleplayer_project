@@ -1,5 +1,8 @@
 x = room_width / 2
 y = room_width / 2
+
+audio_play_sound(intro_strings_v1_big_rough,1,true);
+
 sentence[0] = "A young boy…"
 sentence[1] = "...with the weight of a desperate nation on his shoulders…"
 sentence[2] = "...is banished to a harsh and unfamiliar region..."
