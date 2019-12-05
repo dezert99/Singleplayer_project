@@ -10,7 +10,8 @@ if(reset && purchasing_item){
 if(collision_rectangle(x - sprite_width,y + sprite_height,x + sprite_width,y-sprite_height,obj_player,false,false) && chatTriggered && !reset){
 	if(myTextbox == noone){
 		obj_player.state = PLAYERSTATE.FROZEN;
-		myTextbox = instance_create_layer(x,y-250,"UI",obj_textbox);
+		myTextbox = instance_create_layer(x,y-250,"Instances",obj_textbox);
+		stone_test = instance_create_layer(x,y-250,"Instances",stone);
 		if(gold > cost){
 			myTextbox.text = buy_text
 			myTextbox.creator = self;

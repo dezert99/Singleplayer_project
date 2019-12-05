@@ -1,6 +1,3 @@
-
-event_inherited();
-
 myTextbox = noone;
 chatTriggered = false;
 gave_item = false;
