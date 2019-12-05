@@ -7,5 +7,5 @@ camera_center_y = camera_get_view_x(view_camera[0]) + camera_get_view_height(vie
 if room = rm_forest
 {
 	instance_create_layer(camera_center_x,camera_center_y,"UI",obj_fade_in);
-	//audio_play_sound(forestv1_rough_,1,true);
+	audio_play_sound(forestv1_rough_,1,true);
 }
