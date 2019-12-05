@@ -1,3 +1,6 @@
+draw_set_halign(fa_left);
+draw_set_valign(fa_left);
+
 draw_sprite(spr_box, 0, x, y);
 
 draw_set_font(font_default)
