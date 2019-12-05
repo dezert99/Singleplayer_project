@@ -18,7 +18,7 @@ hit_timer_set = 10;
 hit_direction = 0;
 //////////////
 
-
+leaf_timer = 0;
 
 state = PLAYERSTATE.FREE;
 enum PLAYERSTATE
@@ -45,7 +45,9 @@ timer = 5;
 
 player_damage_taken = 0;
 
-invincibility_timer_max = 90;
+invincibility_timer_max = 60;
 invincibility_timer = 0;
 
-//depth = 3;
+light_counter = 0;
+
+gold = 0;

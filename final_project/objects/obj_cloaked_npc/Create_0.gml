@@ -1,7 +1,9 @@
+
 event_inherited();
 
-myTextbox = noone
-chatTriggered = false
+myTextbox = noone;
+chatTriggered = false;
+gave_item = false;
 
 myText[0] = "AHH!!...H...hello the-"
 myText[1] = "*AHEM* Consider yourself lucky boy! For you have stumbled upon the rarest site there is..."
@@ -13,4 +15,4 @@ myText[6] = "Oh and if you do find it, DO NOT DARE TRY AND OPEN IT!!! For your o
 
 reset = false;
 
-my_name = "Lurker"	     
+my_name = "Lurker";

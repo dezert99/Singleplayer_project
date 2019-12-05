@@ -20,3 +20,9 @@ if x <= LB left = 0;
 if x >= RB left = 1;
 if y >= BB bottom = 0;
 if y <= TB bottom = 1;
+
+if place_meeting(x,y,obj_player) and hasJar and obj_player.light_counter <= 10
+{
+	obj_player.light_counter += 1;
+	instance_destroy();
+}

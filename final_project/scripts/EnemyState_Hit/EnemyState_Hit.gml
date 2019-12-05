@@ -2,13 +2,13 @@ vSpeed += grav
 hit_timer -= 1
 image_blend = c_red;
 if hit_timer < 5 flash = false;
-if (image_xscale == 1)
+if obj_player.x > x
 {
-	hSpeed = -10;
+	hSpeed = -20;
 }
 else
 {
-	hSpeed = 10;
+	hSpeed = 20;
 }
 if hit_timer > 7 vSpeed -= 4
 if (place_meeting(x+hSpeed,y,oWall))

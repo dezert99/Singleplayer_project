@@ -1,4 +1,5 @@
 draw_self();
+draw_set_font(font_default);
 if (state != ENEMYSTATE.DEAD) draw_healthbar(x - 20, y - 120, x + 20, y - 125, hp*4,c_dkgray,c_red,c_green,0,true,true);
 
 if (state = ENEMYSTATE.HIT)

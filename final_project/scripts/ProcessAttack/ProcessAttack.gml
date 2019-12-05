@@ -27,4 +27,4 @@ if (hits > 0)
 	}
 }
 ds_list_destroy(hitByAttackNow);
-mask_index = spr_malek_idle;
+mask_index = spr_knight_idle;

@@ -1,3 +1,4 @@
+player_invincible = obj_player.invincibility_timer != 0;
 if collision_rectangle(x-400,y,x+400,y-100,obj_player,false,false)
 {
 	chase = true;
@@ -44,7 +45,7 @@ if (place_meeting(x,y+vSpeed,oWall))
 else
 {
 	grounded = false;
-	vSpeed += gravSpeed;
+	vSpeed += grav;
 }
 y += vSpeed;
 if (grounded and ! key_jump)
@@ -69,5 +70,12 @@ if vSpeed > 1
 {
 	image_xscale = lerp(1,0.8,0.2); 
 	image_yscale = lerp(1,1.6,0.2);
+}
+
+if(place_meeting(x+hSpeed,y,obj_player) && !player_invincible)
+{
+	obj_player.player_damage_taken = base_damage;
+	obj_player.state = PLAYERSTATE.TOOK_DAMAGE;
+	obj_player.hit_direction = image_xscale;
 }
 //if (keyAttack) state = PLAYERSTATE.ATTACK_SLASH;

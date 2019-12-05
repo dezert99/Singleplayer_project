@@ -1,5 +1,4 @@
-depth = 3;
-hSpeed = 0;
+ hSpeed = 0;
 vSpeed = 0;
 grav = 0.7;
 hitNow = false;
@@ -29,10 +28,11 @@ enum ENEMYSTATE
 	CHASING
 }
 
-base_damage = 2;
+base_damage = 4;
 rand = 0;
 crit_rand = 0;
 crit_chance = 0;
 
+player_invincible = false;
 
 image_index = irandom(10);
