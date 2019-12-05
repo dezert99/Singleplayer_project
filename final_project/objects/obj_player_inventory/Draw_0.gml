@@ -3,6 +3,7 @@ halfViewHeight = camera_get_view_height(view_camera[0]) / 2;
 //center_x = obj_player.camera_x + halfViewWidth;
 //center_y = obj_player.camera_y + halfViewHeight;
 nearest_slot = ds_list_find_value(slots,0);
+/*
 for(i = 0;i < slot_count; i++)
 {
 	if ds_list_find_value(used_slots,i) != nearest_slot
@@ -13,7 +14,7 @@ for(i = 0;i < slot_count; i++)
 	//if slot already in used slots, don't add it 
 	//new if statement to check if slot is used before making nearest_slot
 }
-
+*/
 if obj_player.state == PLAYERSTATE.MENU
 {
 	var inv_x = obj_player.camera_x - (inv_size_x/2) + halfViewWidth

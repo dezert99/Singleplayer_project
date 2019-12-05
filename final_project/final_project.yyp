@@ -1407,6 +1407,14 @@
             }
         },
         {
+            "Key": "e576e5fd-4b61-4f31-afc2-553c852953b0",
+            "Value": {
+                "id": "70ac9bf9-2453-4526-a297-080b5186969c",
+                "resourcePath": "objects\\player_light\\player_light.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e599f699-dfb6-49dd-8971-5bd099fc7552",
             "Value": {
                 "id": "3845be02-f882-4587-834f-1c4d14bea5b7",

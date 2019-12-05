@@ -1,0 +1,1 @@
+obj_player.light_counter -= 1;
