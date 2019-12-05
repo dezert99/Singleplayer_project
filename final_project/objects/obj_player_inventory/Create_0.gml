@@ -1,8 +1,9 @@
-globalvar hasKey, hasBook,hasShovel, slot_count, gold;
+globalvar hasKey, hasBook,hasShovel, slot_count, gold, hasJar;
 hasKey = false;
 hasBook = false;
 hasshovel = false;
 gold = 0;
+hasJar = false;
 
 inv_size_x = 400; //always divisible by 100
 inv_size_y = 600; //always divisible by 100
@@ -12,6 +13,7 @@ col = inv_size_x / num_cols
 row = inv_size_y / num_rows
 slot = [];
 slots = ds_list_create();
+used_slots = ds_list_create();
 slot_x = 0;
 slot_y = 0;
 slot_count = 0;
