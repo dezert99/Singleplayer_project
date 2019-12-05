@@ -1,7 +1,7 @@
 globalvar hasKey, hasBook,hasShovel, slot_count, gold, hasJar;
 hasKey = false;
 hasBook = false;
-hasshovel = false;
+hasShovel = false;
 gold = 0;
 hasJar = false;
 

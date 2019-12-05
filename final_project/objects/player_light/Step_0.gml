@@ -6,7 +6,7 @@ x = obj_player.x;
 y = obj_player.y - 150;
 if obj_player.light_counter > 0
 {
-	if timer >= 0
+	if timer <= 0
 	{
 		obj_player.light_counter -= 1;
 		timer = timer_set
