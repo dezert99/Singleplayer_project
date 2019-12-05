@@ -1,4 +1,4 @@
-hSpeed = 0;
+hSpeed = (keyRight - keyLeft) * walkSpeed;
 vSpeed = 0;
 
 ProcessAttack(spr_knight_attack,spr_knight_attackHB);

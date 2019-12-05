@@ -1,5 +1,9 @@
 hSpeed = (keyRight - keyLeft) * walkSpeed;
 vSpeed = vSpeed + gravSpeed;
+
+if keyboard_check(ord("9")) x -= 5;
+if keyboard_check(ord("0")) x += 5;
+
 lit();
 //hor collision//
 if (place_meeting(x+hSpeed,y,oWall))
