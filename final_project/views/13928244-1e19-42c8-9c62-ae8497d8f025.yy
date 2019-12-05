@@ -6,7 +6,8 @@
     "children": [
         "b93a3b30-0ff8-4f4c-8d7a-1f850f5e8e55",
         "68d4d505-fb43-4477-b280-97d2be38632c",
-        "d7cec623-9d9e-413c-9d52-ce15e382d0c4"
+        "d7cec623-9d9e-413c-9d52-ce15e382d0c4",
+        "0d51b916-a132-4202-8ff4-0c33499a6a16"
     ],
     "filterType": "GMObject",
     "folderName": "particles and FX",
