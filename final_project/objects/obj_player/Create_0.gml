@@ -4,7 +4,7 @@ vSpeed = 0;
 gravSpeed = 1.6;
 walkSpeed = 12;
 grounded = false;
-jump_amt = 32;
+jump_amt = 26;
 //////////////
 
 //////////////
