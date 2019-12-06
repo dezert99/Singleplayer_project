@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "2d5729f7-59a6-4d65-b941-c1369ce04da5",
+            "Value": {
+                "id": "9da3d5fb-ff50-4b0d-80b4-563a5fc73f16",
+                "resourcePath": "objects\\obj_acid\\obj_acid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2dfb638e-4dcd-4742-b8e9-539153027b56",
             "Value": {
                 "id": "aac22538-b0aa-436f-8fb7-af80311fa863",
@@ -692,6 +700,14 @@
                 "id": "5012f8d6-02de-44f4-bb74-36d63733987a",
                 "resourcePath": "objects\/obj_mushroom1_shadow\/obj_mushroom1_shadow.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7349e39b-c91e-48fd-855b-14edc404316c",
+            "Value": {
+                "id": "6b64950e-49ff-40e7-a1a7-6f7cac183d8b",
+                "resourcePath": "sprites\\acid\\acid.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1156,6 +1172,14 @@
                 "id": "b6dadb0d-5e87-4aed-ad13-bb9c0ae48936",
                 "resourcePath": "sprites\/spr_malek_imp\/spr_malek_imp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "be1f4809-10fe-4356-a667-2a59d31accda",
+            "Value": {
+                "id": "1b34a45c-057d-4115-b3fa-b61a9a4284f9",
+                "resourcePath": "rooms\\rm_forest1\\rm_forest1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

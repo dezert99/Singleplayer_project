@@ -34,7 +34,8 @@
         "8ce15e0d-b992-4b5d-ae1b-76356d124c65",
         "960a6588-4bb6-4aca-bd89-87f9fd782ab3",
         "f9eb5cbd-5f6a-450a-b919-dd3c747a1075",
-        "801e8dbe-7af7-4327-a06d-93bc59bf5c36"
+        "801e8dbe-7af7-4327-a06d-93bc59bf5c36",
+        "7349e39b-c91e-48fd-855b-14edc404316c"
     ],
     "filterType": "GMSprite",
     "folderName": "Old Stuff",
