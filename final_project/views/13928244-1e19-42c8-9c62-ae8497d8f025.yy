@@ -8,7 +8,8 @@
         "68d4d505-fb43-4477-b280-97d2be38632c",
         "e576e5fd-4b61-4f31-afc2-553c852953b0",
         "d7cec623-9d9e-413c-9d52-ce15e382d0c4",
-        "0d51b916-a132-4202-8ff4-0c33499a6a16"
+        "0d51b916-a132-4202-8ff4-0c33499a6a16",
+        "baca1fba-5d63-475c-bed1-f07f1db15158"
     ],
     "filterType": "GMObject",
     "folderName": "particles and FX",
