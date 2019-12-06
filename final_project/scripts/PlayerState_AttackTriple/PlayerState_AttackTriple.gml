@@ -1,4 +1,5 @@
-hSpeed = 20;
+fric += 1.5;
+hSpeed = 35 - fric;
 vSpeed = 0;
 
 ProcessAttack(spr_knight_attack_combo_2,spr_knight_attack_combo_2HB);
@@ -17,12 +18,11 @@ if (place_meeting(x+hSpeed,y,oWall))
 if image_xscale == 1 
 {
 	x += hSpeed;
-	hSpeed -= 1;
+	
 }
 if image_xscale == -1 
 {
 	x -= hSpeed;
-	hSpeed += 1;
 }
 
 
