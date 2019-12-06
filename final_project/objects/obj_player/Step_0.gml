@@ -5,7 +5,7 @@ keyAttack = keyboard_check_pressed(ord("J"));
 keyMenu = keyboard_check_pressed(vk_shift);
 
 //This needs to superseed any state except death or menu
-if(invincible)
+if (invincible)
 {
 	hit_timer = hit_timer_set;
 	if invincibility_timer <= 0

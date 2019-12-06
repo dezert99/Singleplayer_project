@@ -54,7 +54,15 @@ if (keyJump && grounded)
 	vSpeed -= jump_amt;
 }
 
-if (keyAttack) state = PLAYERSTATE.ATTACK_SLASH;
+if (keyAttack) && attack_timer <= 0
+{
+	state = PLAYERSTATE.ATTACK_SLASH;
+	attack_timer = attack_timer_set;
+}
+else
+{
+	attack_timer -= 1;
+}
 if (keyMenu) 
 {
 	var center_x = camera_x + halfViewWidth;

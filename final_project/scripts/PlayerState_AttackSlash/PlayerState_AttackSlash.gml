@@ -14,7 +14,8 @@ x += hSpeed;
 
 if (keyAttack) && (image_index > 4)
 {	
-	state = PLAYERSTATE.ATTACK_COMBO;	
+	state = PLAYERSTATE.ATTACK_COMBO;
+	attack_timer = attack_timer_set;
 }
 
 if (animation_end())

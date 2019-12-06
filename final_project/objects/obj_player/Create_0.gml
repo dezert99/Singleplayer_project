@@ -15,7 +15,7 @@ hit_timer = 0;
 hit_timer_set = 10;
 hit_direction = 0;
 attack_timer = 0;
-attack_timer_set = 45;
+attack_timer_set = 20;
 //////////////
 
 leaf_timer = 0;

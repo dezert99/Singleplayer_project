@@ -10,27 +10,31 @@ if(place_meeting(x+hSpeed,y,player) && !player_invincible)
 	player.hit_direction = image_xscale;
 }
 
-if(state != ENEMYSTATE.DEAD && collision_rectangle(x-150,y,x+150,y-100,obj_player,false,true)){
+if(collision_rectangle(x-150,y,x+150,y-100,obj_player,false,true))
+{
     state = ENEMYSTATE.CHASING;
 }
-else if(state != ENEMYSTATE.DEAD){
+else
+{
     state = ENEMYSTATE.FREE;    
 }
 
-if(player.x < x){
-    hSpeed = -3;  
+if(player.x < x)
+{
+    hSpeed = -4;  
 	image_xscale = -1;
 }
-else {
-    hSpeed = 3   
+else
+{
+    hSpeed = 4  
 	image_xscale = 1;
 }
 
-if (place_meeting(x+hSpeed,y,oWall))
+if (place_meeting(x+hSpeed,y,oWall) or place_meeting(x+hSpeed,y,obj_invisible))
 {
     var onePixel = sign(hSpeed);
     while (!place_meeting(x+onePixel,y,oWall)) x += onePixel;
-    hSpeed = 0;
+    hSpeed *= -1;
 }
 
 if (place_meeting(x,y+vSpeed,oWall))
@@ -45,8 +49,5 @@ else
     grounded = false;
 }
 
-if(!place_meeting(x+hSpeed,y,obj_invisible)){
-    x+=hSpeed;
-}
-
-y += vSpeed; 
+x += hSpeed;
+y += vSpeed
