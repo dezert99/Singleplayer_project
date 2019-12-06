@@ -16,13 +16,13 @@ if(invincible)
 	{
 		invincibility_timer -= 1;
 	}
-	if (invincibility_timer % 10 == 0 && invincibility_timer > 0)
-	{
-		image_alpha = 0.8;
-	}
-	else
+	if (invincibility_timer % 20 == 0 )
 	{
 		image_alpha = 1;
+	}
+	else if (invincibility_timer % 10 == 0 && invincibility_timer > 0)
+	{
+		image_alpha = 0.6;
 	}
 }
 else
