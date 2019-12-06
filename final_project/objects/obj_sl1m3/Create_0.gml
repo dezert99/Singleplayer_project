@@ -1,5 +1,5 @@
 event_inherited();
 chase = false;
-walkSpeed = 10;
-jump_amt = 20;
+walkSpeed = 7;
+jump_amt = 15;
 hp = 10;

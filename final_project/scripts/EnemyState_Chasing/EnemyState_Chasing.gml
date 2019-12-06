@@ -1,9 +1,10 @@
 vSpeed += grav;
 hSpeed = 0;
 player = obj_player;
-player_invincible = obj_player.invincibility_timer != 0;
+player_invincible = obj_player.invincible;
 
-if(place_meeting(x+hSpeed,y,player) && !player_invincible){
+if(place_meeting(x+hSpeed,y,player) && !player_invincible)
+{
 	player.player_damage_taken = base_damage;
 	player.state = PLAYERSTATE.TOOK_DAMAGE;
 	player.hit_direction = image_xscale;

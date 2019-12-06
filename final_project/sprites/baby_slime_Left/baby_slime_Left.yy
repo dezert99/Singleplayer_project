@@ -2,7 +2,7 @@
     "id": "0e4b41ff-2193-43cf-b952-32b91b10dc2c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "baby_slime_1",
+    "name": "baby_slime_left",
     "For3D": false,
     "HTile": false,
     "VTile": false,

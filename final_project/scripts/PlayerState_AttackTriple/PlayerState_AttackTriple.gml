@@ -14,9 +14,17 @@ if (place_meeting(x+hSpeed,y,oWall))
 	while (!place_meeting(x+onePixel,y,oWall)) x += onePixel;
 	hSpeed = 0;
 }
-if image_xscale == 1 x += hSpeed;
-if image_xscale == -1 x -= hSpeed;
-hSpeed -= 0.4;
+if image_xscale == 1 
+{
+	x += hSpeed;
+	hSpeed -= 1;
+}
+if image_xscale == -1 
+{
+	x -= hSpeed;
+	hSpeed += 1;
+}
+
 
 if timer > 0
 {

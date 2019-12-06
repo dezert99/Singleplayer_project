@@ -1,4 +1,4 @@
-player_invincible = obj_player.invincibility_timer != 0;
+player_invincible = obj_player.invincible;
 if collision_rectangle(x-400,y,x+400,y-100,obj_player,false,false)
 {
 	chase = true;
@@ -7,11 +7,13 @@ if chase
 {
 	if obj_player.x < x
 	{
+		sprite_index = baby_slime_left;
 		Right = 0;
 		Left = 1;
 	}
 	else if obj_player.x > x
 	{
+		sprite_index = baby_slime_right;
 		Right = 1;
 		Left = 0;
 	}
@@ -28,10 +30,6 @@ if (place_meeting(x+hSpeed,y,oWall))
 }
 x += hSpeed;
 
-if (hSpeed != 0)
-{
-	image_xscale = sign(hSpeed)
-}
 //vert collision
 if (place_meeting(x,y+vSpeed,oWall))
 {
@@ -76,6 +74,8 @@ if(place_meeting(x+hSpeed,y,obj_player) && !player_invincible)
 {
 	obj_player.player_damage_taken = base_damage;
 	obj_player.state = PLAYERSTATE.TOOK_DAMAGE;
-	obj_player.hit_direction = image_xscale;
+	if sprite_index == baby_slime_left obj_player.hit_direction = -1;
+	if sprite_index == baby_slime_right obj_player.hit_direction = 1;
+	hSpeed = 0;
 }
 //if (keyAttack) state = PLAYERSTATE.ATTACK_SLASH;

@@ -2,12 +2,9 @@
 hSpeed = 0;
 vSpeed = 0;
 gravSpeed = 1.6;
-walkSpeed = 14;
-
+walkSpeed = 12;
 grounded = false;
-
-
-jump_amt = 40;
+jump_amt = 32;
 //////////////
 
 //////////////
@@ -16,6 +13,8 @@ flash = false;
 hit_timer = 0;
 hit_timer_set = 10;
 hit_direction = 0;
+attack_timer = 0;
+attack_timer_set = 45;
 //////////////
 
 leaf_timer = 0;
@@ -47,6 +46,7 @@ player_damage_taken = 0;
 
 invincibility_timer_max = 60;
 invincibility_timer = 0;
+invincible = false;
 
 light_counter = 0;
 

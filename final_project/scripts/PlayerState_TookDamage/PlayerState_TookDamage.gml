@@ -1,16 +1,14 @@
-vSpeed += gravSpeed
-hit_timer -= 1
-image_blend = c_red;
-if hit_timer < 5 flash = false;
+////Movement////
+vSpeed += gravSpeed;
+if (hit_timer > 9) vSpeed -= jump_amt/2 //so the jump is only applied for one frame//
 if (hit_direction == 1)
 {
-	hSpeed = 16;
+	hSpeed = 20;
 }
 else
 {
-	hSpeed = -16;
+	hSpeed = -20;
 }
-if hit_timer > 7 vSpeed -= 10
 if (place_meeting(x+hSpeed,y,oWall))
 {
 	var onePixel = sign(hSpeed);
@@ -30,8 +28,20 @@ else
 	grounded = false;
 }
 y += vSpeed; // must be under collisions
-if (hit_timer < 0)
+//////////////
+////FLASH////
+if hit_timer > 5 
 {
-	hit_timer = 0;
-	state = PLAYERSTATE.FREE;
+	image_blend = c_red;
 }
+else
+{
+	image_blend = c_white;
+}
+////////
+if (hit_timer <= 0)
+{
+	state = PLAYERSTATE.FREE;
+	invincible = true;
+}
+hit_timer -= 1;

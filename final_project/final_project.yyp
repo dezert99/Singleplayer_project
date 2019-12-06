@@ -122,7 +122,7 @@
             "Key": "0e4b41ff-2193-43cf-b952-32b91b10dc2c",
             "Value": {
                 "id": "5ff7e729-539b-46ce-bb3c-5347f1db9418",
-                "resourcePath": "sprites\/baby_slime_1\/baby_slime_1.yy",
+                "resourcePath": "sprites\\baby_slime_left\\baby_slime_left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -196,6 +196,14 @@
                 "id": "9a2bc59e-4dd3-4189-a2ac-2043a72818a7",
                 "resourcePath": "sprites\/spr_bush1\/spr_bush1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1b35f746-73d5-4294-b219-71e9763ebac7",
+            "Value": {
+                "id": "a78547aa-949f-42fc-9428-44922a3fcb77",
+                "resourcePath": "objects\\HOUSE\\HOUSE.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -963,6 +971,14 @@
             "Value": {
                 "id": "9f9ca522-5783-46d0-b73d-d61067eaa690",
                 "resourcePath": "sprites\/spr_thickvine1_shadow\/spr_thickvine1_shadow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9f96574d-8ed5-4ae7-8734-bb368f60d2c0",
+            "Value": {
+                "id": "f409b977-fc21-402f-ba81-2cb862f99a6a",
+                "resourcePath": "sprites\\baby_slime_right\\baby_slime_right.yy",
                 "resourceType": "GMSprite"
             }
         },
