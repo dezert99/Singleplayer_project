@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "429ae86b-c43c-4f6b-b639-d0392ba30f1c",
+            "Value": {
+                "id": "bd123620-b931-4f81-b870-8a911e12cbf5",
+                "resourcePath": "sprites\/spr_darkgray\/spr_darkgray.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "42ae7414-b0e9-43fa-aef8-2ca4b44acc94",
             "Value": {
                 "id": "f1f32356-4759-4dc5-99b2-ceae1c78f9bc",
@@ -687,6 +695,14 @@
             }
         },
         {
+            "Key": "68ba2260-9aca-471c-966d-1d7e87308a84",
+            "Value": {
+                "id": "c8121609-447f-4cf9-bdec-a1100fbecc99",
+                "resourcePath": "objects\/obj_blacksmith_sign\/obj_blacksmith_sign.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "68d4d505-fb43-4477-b280-97d2be38632c",
             "Value": {
                 "id": "fe3b99d6-c5c4-4f67-bd7f-1e53b0fa3256",
@@ -708,6 +724,14 @@
                 "id": "8624219c-aada-4107-bcac-927c80711de5",
                 "resourcePath": "objects\/obj_vine1_blurred1\/obj_vine1_blurred1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6a75820d-1572-4452-95b5-c2044c2b6f27",
+            "Value": {
+                "id": "1615c7fd-2227-47ea-a6ce-d0db7a400ced",
+                "resourcePath": "sprites\/spr_blacksmith_sign\/spr_blacksmith_sign.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1084,6 +1108,14 @@
                 "id": "9f9ca522-5783-46d0-b73d-d61067eaa690",
                 "resourcePath": "sprites\/spr_thickvine1_shadow\/spr_thickvine1_shadow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9f618543-7232-4ced-947f-509d8b03c1ee",
+            "Value": {
+                "id": "ca820f9f-0ecf-45d8-be5f-f94f249c160c",
+                "resourcePath": "objects\/obj_darkgray\/obj_darkgray.yy",
+                "resourceType": "GMObject"
             }
         },
         {
