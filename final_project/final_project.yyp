@@ -767,6 +767,14 @@
             }
         },
         {
+            "Key": "71d15115-f2b6-40ed-bcd8-2c4249c32dbd",
+            "Value": {
+                "id": "e7ed1e0f-b5f8-4f0e-8b2e-929a9c4937b7",
+                "resourcePath": "objects\/obj_door\/obj_door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "71fa9235-ffe4-411e-b6ba-64fd9ad96ced",
             "Value": {
                 "id": "d6d194d9-82c4-4c7c-898a-6f4ccd25defd",
@@ -1143,6 +1151,14 @@
             }
         },
         {
+            "Key": "a545e00d-879e-4356-a4bf-468fd4683631",
+            "Value": {
+                "id": "2e092e2f-4c4d-4434-802a-11ac3446467a",
+                "resourcePath": "objects\/obj_blacksmith_window\/obj_blacksmith_window.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a582a209-1dbd-4528-86fb-3766083cee14",
             "Value": {
                 "id": "ccf57943-0e90-46cd-b698-882138200661",
@@ -1324,6 +1340,14 @@
                 "id": "c814390e-8aed-43b3-87c2-673af94afa82",
                 "resourcePath": "objects\/obj_dirt_corner\/obj_dirt_corner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c07a3d40-5993-452d-b8f4-56f425d885fc",
+            "Value": {
+                "id": "bae69e8a-3c9e-461c-9fdb-d64bd1d572df",
+                "resourcePath": "sprites\/spr_door\/spr_door.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1620,6 +1644,14 @@
                 "id": "10555474-5bac-4376-bf2c-8c8d424835f8",
                 "resourcePath": "views\/dec44280-6f52-4842-83dd-a18025da1a0d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "df25f372-a26b-4f4a-bf86-9550ea01ff8a",
+            "Value": {
+                "id": "d4e7a096-69dd-41cd-91ad-b154bc03020b",
+                "resourcePath": "sprites\/spr_blacksmith_window\/spr_blacksmith_window.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
