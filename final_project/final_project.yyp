@@ -935,6 +935,14 @@
             }
         },
         {
+            "Key": "837eaef3-c52e-447d-9fd2-0c5c67c11df6",
+            "Value": {
+                "id": "3a00a7a7-d697-48fc-a1fa-36e8c9b76973",
+                "resourcePath": "sprites\/spr_hermit\/spr_hermit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85929531-e020-4265-95f8-896852694c5e",
             "Value": {
                 "id": "c2f12840-c00a-4626-aa97-6e57a841e5e0",
@@ -1570,7 +1578,7 @@
             "Key": "d28eb2cd-a418-42ba-9951-46b9e30c46f0",
             "Value": {
                 "id": "1da86d7d-d8f6-4dc0-9ede-15fc6447eccf",
-                "resourcePath": "sprites\/sprite89\/sprite89.yy",
+                "resourcePath": "sprites\/spr_slime\/spr_slime.yy",
                 "resourceType": "GMSprite"
             }
         },
