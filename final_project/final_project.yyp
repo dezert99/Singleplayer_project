@@ -482,7 +482,7 @@
             "Key": "3caf672a-9c78-4c03-8fe4-fefefb460112",
             "Value": {
                 "id": "66e759c0-48ae-4bdf-a365-92625c4f2059",
-                "resourcePath": "objects\/obj_sl1m3\/obj_sl1m3.yy",
+                "resourcePath": "objects\/obj_slime\/obj_slime.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1564,6 +1564,14 @@
                 "id": "007ac1fd-994e-474b-b72b-7774fbf0c736",
                 "resourcePath": "objects\/obj_test_enemy\/obj_test_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d28eb2cd-a418-42ba-9951-46b9e30c46f0",
+            "Value": {
+                "id": "1da86d7d-d8f6-4dc0-9ede-15fc6447eccf",
+                "resourcePath": "sprites\/sprite89\/sprite89.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
