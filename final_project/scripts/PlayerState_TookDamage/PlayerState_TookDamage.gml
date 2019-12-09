@@ -38,6 +38,11 @@ else
 {
 	image_blend = c_white;
 }
+
+if(player_damage_taken > 0){
+	player_health -= player_damage_taken;
+	player_damage_taken = 0;
+}
 ////////
 if (hit_timer <= 0)
 {
