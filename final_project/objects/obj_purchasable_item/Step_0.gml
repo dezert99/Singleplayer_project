@@ -1,18 +1,18 @@
-if(keyboard_check_pressed(vk_backspace)){
+if(keyboard_check_pressed(ord("E"))){
 	chatTriggered = true	
 }
 
 if(reset && purchasing_item){
 	obj_player.state = PLAYERSTATE.FREE;
+	slot_count += 1;
 	instance_destroy();	
 }
 
 if(collision_rectangle(x - sprite_width,y + sprite_height,x + sprite_width,y-sprite_height,obj_player,false,false) && chatTriggered && !reset){
 	if(myTextbox == noone){
 		obj_player.state = PLAYERSTATE.FROZEN;
-		myTextbox = instance_create_layer(x,y-250,"Instances",obj_textbox);
-		stone_test = instance_create_layer(x,y-250,"Instances",stone);
-		if(gold > cost){
+		myTextbox = instance_create_layer(x,y-250,"Text",obj_textbox);
+		if(gold >= cost){
 			myTextbox.text = buy_text
 			myTextbox.creator = self;
 			myTextbox.name = my_name
