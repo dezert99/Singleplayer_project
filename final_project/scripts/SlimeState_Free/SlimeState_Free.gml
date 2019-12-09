@@ -7,13 +7,13 @@ if chase
 {
 	if obj_player.x < x
 	{
-		sprite_index = baby_slime_left;
+		sprite_index = spr_slime_left;
 		Right = 0;
 		Left = 1;
 	}
 	else if obj_player.x > x
 	{
-		sprite_index = baby_slime_right;
+		sprite_index = spr_slime;
 		Right = 1;
 		Left = 0;
 	}
