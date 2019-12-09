@@ -2,7 +2,8 @@
 
 switch (item)
 {
-	case "book": hasBook = true; break;
-	case "shovel": hasShovel = true; break;
-	case "key": hasKey = true; break;
+	case "book": hasBook = true; slot_count += 1; break;
+	case "shovel": hasShovel = true; slot_count += 1; break;
+	case "key": hasKey = true; slot_count += 1; break;
 }
+

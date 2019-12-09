@@ -12,5 +12,7 @@ myText[4] = "I don't know how but it just kind of showed up down here."
 doneText[0] = "What do you want!"
 doneText[1] = "I gave you everything I have!"
 doneText[2] = "Leave me in peace please..."
+
+has_done_text = true;
 my_name = "Hermit";
 item_to_give = "book";
