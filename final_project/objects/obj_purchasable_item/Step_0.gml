@@ -1,4 +1,4 @@
-if(keyboard_check_pressed(ord("E"))){
+if(!chatTriggered && collision_rectangle(x - sprite_width,y + sprite_height,x + sprite_width,y-sprite_height,obj_player,false,false) && keyboard_check_pressed(ord("E"))){
 	chatTriggered = true	
 }
 

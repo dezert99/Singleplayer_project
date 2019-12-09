@@ -2,7 +2,7 @@ globalvar hasKey, hasBook,hasShovel, slot_count, gold, hasJar;
 hasKey = false;
 hasBook = false;
 hasShovel = false;
-gold = 0;
+gold = 15;
 hasJar = false;
 
 inv_size_x = 400; //always divisible by 100
