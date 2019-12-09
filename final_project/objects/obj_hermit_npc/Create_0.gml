@@ -9,5 +9,8 @@ myText[2] = "Thank you for digging me out of here..."
 myText[3] = "Please, take this book as a sign of my gratitude."
 myText[4] = "I don't know how but it just kind of showed up down here."
 
+doneText[0] = "What do you want!"
+doneText[1] = "I gave you everything I have!"
+doneText[2] = "Leave me in peace please..."
 my_name = "Hermit";
 item_to_give = "book";
