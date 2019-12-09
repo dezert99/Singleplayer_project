@@ -7,7 +7,12 @@ if(keyboard_check_pressed(ord("E"))){
 if(collision_rectangle(x - sprite_width,y + sprite_height,x + sprite_width,y-sprite_height,obj_player,false,false) && chatTriggered && !reset){
 	if(myTextbox == noone){
 		myTextbox = instance_create_layer(x,y-250,"Text",obj_textbox);	
-		myTextbox.text = myText
+		if(show_done_text){
+			myTextbox.text = doneText
+		}
+		else{
+			myTextbox.text = myText
+		}
 		myTextbox.creator = self;
 		myTextbox.name = my_name
 		if(!gave_item){
@@ -22,5 +27,9 @@ else {
 		chatTriggered = false;
 		myTextbox = noone;
 		reset = false;
+		if(has_done_text){
+			show_done_text = true;	
+		}
+		
 	}
 }

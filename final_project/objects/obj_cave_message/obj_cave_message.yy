@@ -1,19 +1,10 @@
 {
-    "id": "f1a00fc6-db24-4e5f-99fb-26e3a886c71a",
+    "id": "0a583dd5-f146-42ba-bdb7-e5f39cdf15e9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "onj_hermit_npc",
+    "name": "obj_cave_message",
     "eventList": [
-        {
-            "id": "e2753e44-7008-4ad6-8315-c64f715480d1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "f1a00fc6-db24-4e5f-99fb-26e3a886c71a"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "837eaef3-c52e-447d-9fd2-0c5c67c11df6",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

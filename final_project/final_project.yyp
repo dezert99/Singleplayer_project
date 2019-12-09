@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0a583dd5-f146-42ba-bdb7-e5f39cdf15e9",
+            "Value": {
+                "id": "15789a3e-af30-4d2d-a3b0-0fbb9c8d19c3",
+                "resourcePath": "objects\/obj_cave_message\/obj_cave_message.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0aa41c3e-f93b-4781-bc33-64292ea9faa8",
             "Value": {
                 "id": "485450d3-4a81-4cac-81ac-c892a3465d91",
@@ -1818,7 +1826,7 @@
             "Key": "f1a00fc6-db24-4e5f-99fb-26e3a886c71a",
             "Value": {
                 "id": "1dee6bd1-8ebe-469e-930c-a4bf0149e1fc",
-                "resourcePath": "objects\/onj_hermit_npc\/onj_hermit_npc.yy",
+                "resourcePath": "objects\/obj_hermit_npc\/obj_hermit_npc.yy",
                 "resourceType": "GMObject"
             }
         },

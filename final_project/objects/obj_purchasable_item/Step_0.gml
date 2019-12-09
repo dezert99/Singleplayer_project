@@ -4,7 +4,6 @@ if(!chatTriggered && collision_rectangle(x - sprite_width,y + sprite_height,x + 
 
 if(reset && purchasing_item){
 	obj_player.state = PLAYERSTATE.FREE;
-	slot_count += 1;
 	instance_destroy();	
 }
 
