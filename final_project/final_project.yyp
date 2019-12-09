@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "0a583dd5-f146-42ba-bdb7-e5f39cdf15e9",
-            "Value": {
-                "id": "15789a3e-af30-4d2d-a3b0-0fbb9c8d19c3",
-                "resourcePath": "objects\/obj_cave_message\/obj_cave_message.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0aa41c3e-f93b-4781-bc33-64292ea9faa8",
             "Value": {
                 "id": "485450d3-4a81-4cac-81ac-c892a3465d91",

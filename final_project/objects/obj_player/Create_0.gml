@@ -53,4 +53,4 @@ light_counter = 0;
 
 globalvar chatTriggered;
 chatTriggered = false;
-gold = 15;
+gold = 0;
