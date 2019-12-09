@@ -2,7 +2,7 @@
     "id": "f1a00fc6-db24-4e5f-99fb-26e3a886c71a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "onj_hermit_npc",
+    "name": "obj_hermit_npc",
     "eventList": [
         {
             "id": "e2753e44-7008-4ad6-8315-c64f715480d1",

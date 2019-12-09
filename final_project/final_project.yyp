@@ -1818,7 +1818,7 @@
             "Key": "f1a00fc6-db24-4e5f-99fb-26e3a886c71a",
             "Value": {
                 "id": "1dee6bd1-8ebe-469e-930c-a4bf0149e1fc",
-                "resourcePath": "objects\/onj_hermit_npc\/onj_hermit_npc.yy",
+                "resourcePath": "objects\/obj_hermit_npc\/obj_hermit_npc.yy",
                 "resourceType": "GMObject"
             }
         },
