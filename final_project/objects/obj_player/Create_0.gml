@@ -54,3 +54,6 @@ light_counter = 0;
 globalvar chatTriggered;
 chatTriggered = false;
 gold = 0;
+
+return_x = 0;
+return_y = 0;
