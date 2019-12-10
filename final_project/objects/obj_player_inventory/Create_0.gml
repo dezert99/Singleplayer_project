@@ -1,9 +1,11 @@
-globalvar hasKey, hasBook,hasShovel, slot_count, gold, hasJar;
+globalvar hasKey, hasBook,hasShovel, slot_count, gold, hasJar, monsterParts, hasArmor;
 hasKey = false;
 hasBook = false;
 hasShovel = false;
 gold = 0;
 hasJar = false;
+monsterParts = 0;
+hasArmor = false;
 
 inv_size_x = 400; //always divisible by 100
 inv_size_y = 600; //always divisible by 100

@@ -5,13 +5,22 @@ if(player_in_range && keyboard_check_pressed(ord("E"))){
 
 if(player_in_range && chatTriggered && !reset){
 	if(myTextbox == noone){
+		quest_complete = isQuestComplete(quest);
 		myTextbox = instance_create_layer(x,y-250,"Text",obj_textbox);	
-		if(show_done_text){
+		if((!quest_complete || gave_item)&& show_done_text){
 			myTextbox.text = doneText
 		}
-		else{
-			myTextbox.text = myText
+		else if(quest_complete && been_spoken_to){
+			myTextbox.text = completedText;
+			if(has_done_text){
+				show_done_text = true;
+			}
 		}
+		else{
+			myTextbox.text = myText;
+			been_spoken_to = true;
+		}
+		
 		myTextbox.creator = self;
 		myTextbox.name = my_name
 		if(!gave_item){
@@ -26,9 +35,6 @@ else {
 		chatTriggered = false;
 		myTextbox = noone;
 		reset = false;
-		if(has_done_text){
-			show_done_text = true;	
-		}
 		
 	}
 }

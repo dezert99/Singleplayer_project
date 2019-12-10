@@ -19,4 +19,8 @@ else
 {
 	grounded = false;
 }
+
+if(!has_given_part){
+	monsterParts++;	
+}
 y += vSpeed; // must be under collisions

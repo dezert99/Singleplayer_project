@@ -12,6 +12,8 @@ globalvar damage_taken;
 damage_taken = 0;
 //frameCount = 0;
 
+has_given_part = false;
+
 ////variables for graphics////
 hp = 25;
 float_x = 0;

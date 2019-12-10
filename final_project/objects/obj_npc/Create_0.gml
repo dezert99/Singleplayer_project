@@ -10,12 +10,18 @@ myText[2] = "But I love it so."
 
 doneText[0] = "I have spoken my piece"
 
+completedText[0] = "You finished my quest!"
+
 reset = false;
 
 my_name = "Pepe"
 
-item_to_give = "";
+item_to_give = "armor";
 gave_item = false;
+
+been_spoken_to = false;
+
+quest = ""
 
 show_done_text = false;
 has_done_text = true;
