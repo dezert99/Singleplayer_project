@@ -25,6 +25,10 @@ if(player_in_range && chatTriggered && !reset){
 			if(has_done_text){
 				show_done_text = true;
 			}
+			if(quest == "" && item_to_give != "" && !gave_item){
+				giveItem(item_to_give);
+				gave_item = true;
+			}
 			been_spoken_to = true;
 		}
 		

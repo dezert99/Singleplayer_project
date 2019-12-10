@@ -16,3 +16,5 @@ doneText[2] = "Leave me in peace please..."
 has_done_text = true;
 my_name = "Hermit";
 item_to_give = "book";
+
+quest = ""
