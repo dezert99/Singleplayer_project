@@ -4,6 +4,8 @@ if(collision_rectangle(x - sprite_width,y + sprite_height,x + sprite_width,y-spr
 
 if place_meeting(x,y,obj_player) && chatTriggered and hasShovel
 {
+	obj_player.return_x = x;
+	obj_player.return_y = y;
 	obj_player.x = 150;
 	obj_player.y = 400;
 	room_goto(rm_cave);

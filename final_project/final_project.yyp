@@ -711,6 +711,14 @@
             }
         },
         {
+            "Key": "64c0a83f-ffeb-46ac-a888-177292db2a1f",
+            "Value": {
+                "id": "623591b6-40f4-4655-a689-7f7175b6cde8",
+                "resourcePath": "objects\/obj_cave_return\/obj_cave_return.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "65659203-5f32-40b5-9ccb-d41715341dba",
             "Value": {
                 "id": "79bfc7e4-0c73-4e58-8730-f96ad5cab964",

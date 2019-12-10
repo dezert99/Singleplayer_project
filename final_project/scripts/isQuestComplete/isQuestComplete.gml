@@ -2,8 +2,8 @@ quest = argument0;
 
 switch (quest)
 {
-	case "book": return hasBook;
-	case "monster_parts": return monsterParts >= 15;
-	case "": return true;
+	case "book": show_debug_message("inbook"); return hasBook;
+	case "monster_parts": return monsterParts >= 3;
+	case "": return false;
 }
 

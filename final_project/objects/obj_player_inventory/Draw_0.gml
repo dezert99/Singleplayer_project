@@ -36,3 +36,5 @@ if obj_player.state == PLAYERSTATE.MENU
 }
 depth = 1;
 //draw_text(800,1500,string(nearest_slot));
+
+show_debug_message("has_book "+string(hasBook)+" hasAmor "+string(hasArmor));

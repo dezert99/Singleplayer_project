@@ -13,8 +13,18 @@ myText[4] = "If you can find it, I might teach you a little trick to impress you
 myText[5] = "I'm deeply embarassed, but every minute that passes is a threat to the very fabric of reality!"
 myText[6] = "Oh and if you do find it, DO NOT DARE TRY AND OPEN IT!!! For your own sake..."
 
+doneText[0] = "Thank you for looking for my book..."
+
+completedText[0] = "You found my book! Marvelous!"
+completedText[1] = "Now, wiggldy woggldy WOO"
+completedText[2] = "You can now complete an aditional jump mid-air"
+completedText[3] = "Isn't that cool!"
+
 reset = false;
 
 my_name = "Lurker";
 
 quest = "book"
+item_to_give = "jumpBoots"
+
+has_done_text = true;

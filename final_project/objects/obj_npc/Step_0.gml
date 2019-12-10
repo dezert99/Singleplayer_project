@@ -15,18 +15,22 @@ if(player_in_range && chatTriggered && !reset){
 			if(has_done_text){
 				show_done_text = true;
 			}
+			if(!gave_item){
+				giveItem(item_to_give);
+				gave_item = true;
+			}
 		}
 		else{
 			myTextbox.text = myText;
+			if(has_done_text){
+				show_done_text = true;
+			}
 			been_spoken_to = true;
 		}
 		
 		myTextbox.creator = self;
 		myTextbox.name = my_name
-		if(!gave_item){
-			myTextbox.item_to_give = item_to_give;
-			gave_item = true;
-		}
+		
 	}
 }
 else {
