@@ -39,7 +39,8 @@ rand = 0;
 crit_rand = 0;
 crit_chance = 0;
 
-player_health = 35;
+player_health_set = 40;
+player_health = player_health_set;
 
 timer = 5;
 
