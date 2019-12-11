@@ -7,7 +7,7 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 372,
-    "bbox_left": 5,
+    "bbox_left": 0,
     "bbox_right": 386,
     "bbox_top": 0,
     "bboxmode": 0,
@@ -36,7 +36,7 @@
                     "LayerId": "d022ae58-1aab-4113-b20d-610eb4ae8210"
                 },
                 {
-                    "id": "ac20c6a1-5aa7-4092-972e-03d233638f3a",
+                    "id": "e7d3985e-d395-4ff5-bc8c-af32b8e12f91",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "456b4d4b-151b-4824-bdea-3df64e501513",
