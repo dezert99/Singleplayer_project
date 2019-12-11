@@ -32,5 +32,5 @@ else
 y += vSpeed;
 if (hit_timer == 0)
 {
-	state = ENEMYSTATE.FREE;
+	state = ENEMYSTATE.CHASING;
 }

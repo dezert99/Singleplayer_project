@@ -1,5 +1,4 @@
 vSpeed += grav;
-hSpeed = 0;
 player = obj_player;
 player_invincible = obj_player.invincible;
 hCollision = (place_meeting(x+hSpeed,y,oWall) or place_meeting(x+hSpeed,y,obj_invisible))
@@ -37,6 +36,9 @@ else
 {
     grounded = false;
 }
-
 x += hSpeed;
 y += vSpeed
+if!(collision_rectangle(x-350,y,x+350,y-100,obj_player,false,false))
+{
+	state = ENEMYSTATE.FREE
+}
