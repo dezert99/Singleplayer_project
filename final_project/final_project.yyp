@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "4589ff00-fc74-4f3a-9185-bf199166f992",
+            "Value": {
+                "id": "a0eabdf0-aa1f-4e4c-a9d8-8710e7924d8b",
+                "resourcePath": "sprites\\spr_healthbar_outside\\spr_healthbar_outside.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45f8b83b-78b7-42d8-ac9a-57d0d9f84990",
             "Value": {
                 "id": "56989de9-7f96-4628-984e-20ebe5991d45",
@@ -1187,6 +1195,14 @@
             "Value": {
                 "id": "b3f380f2-53ad-45f7-abb5-527ab1524fad",
                 "resourcePath": "sprites\/spr_giant_lightgreen\/spr_giant_lightgreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "96281f01-a91f-4de8-8020-c7b7a496def0",
+            "Value": {
+                "id": "84900d6b-36c7-43bb-8ec9-8e0a2bb62975",
+                "resourcePath": "sprites\\spr_healthbar_inside\\spr_healthbar_inside.yy",
                 "resourceType": "GMSprite"
             }
         },
