@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "2cb6fb4d-b64c-4e48-aada-74b20644527c",
+            "Value": {
+                "id": "196e6a22-0fda-4665-bc26-ef83dea40016",
+                "resourcePath": "sprites\/spr_shopkeeper_pink\/spr_shopkeeper_pink.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2d5729f7-59a6-4d65-b941-c1369ce04da5",
             "Value": {
                 "id": "9da3d5fb-ff50-4b0d-80b4-563a5fc73f16",
@@ -1443,6 +1451,14 @@
             "Value": {
                 "id": "c814390e-8aed-43b3-87c2-673af94afa82",
                 "resourcePath": "objects\/obj_dirt_corner\/obj_dirt_corner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c06f9432-2d80-43ea-bca6-3c4d41be2a37",
+            "Value": {
+                "id": "1f2be61c-7ba1-4390-ba4e-b89c9324cc8d",
+                "resourcePath": "objects\/obj_shopkeeper_pink\/obj_shopkeeper_pink.yy",
                 "resourceType": "GMObject"
             }
         },
