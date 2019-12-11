@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "279b8008-2e2e-4502-b1d0-aedfd4adb7d3",
+            "Value": {
+                "id": "135bb87b-6ec1-4ed3-90dc-c6690fdc9507",
+                "resourcePath": "objects\/obj_black\/obj_black.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2814898a-e07f-4fd3-95cc-1431cc98f31f",
             "Value": {
                 "id": "7ac7b86e-afd0-4322-8338-c33f67919c7c",
@@ -1252,6 +1260,14 @@
                 "id": "2e092e2f-4c4d-4434-802a-11ac3446467a",
                 "resourcePath": "objects\/obj_blacksmith_window\/obj_blacksmith_window.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a57905d9-bbe4-4536-8449-ee9e0374cc3e",
+            "Value": {
+                "id": "54b61da4-89b9-4be7-8c70-b9adcb57b719",
+                "resourcePath": "sprites\/spr_black\/spr_black.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
