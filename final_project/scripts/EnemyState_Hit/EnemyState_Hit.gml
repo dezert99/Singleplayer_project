@@ -29,7 +29,7 @@ else
 {
 	grounded = false;
 }
-y += vSpeed; // must be under collisions
+y += vSpeed;
 if (hit_timer == 0)
 {
 	state = ENEMYSTATE.FREE;

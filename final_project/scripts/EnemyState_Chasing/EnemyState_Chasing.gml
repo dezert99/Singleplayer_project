@@ -2,38 +2,27 @@ vSpeed += grav;
 hSpeed = 0;
 player = obj_player;
 player_invincible = obj_player.invincible;
-
+hCollision = (place_meeting(x+hSpeed,y,oWall) or place_meeting(x+hSpeed,y,obj_invisible))
 if(place_meeting(x+hSpeed,y,player) && !player_invincible)
 {
 	player.player_damage_taken = base_damage;
 	player.state = PLAYERSTATE.TOOK_DAMAGE;
 	player.hit_direction = image_xscale;
 }
-
-if(collision_rectangle(x-150,y,x+150,y-100,obj_player,false,true))
+if (player.x < x)
 {
-    state = ENEMYSTATE.CHASING;
-}
-else
-{
-    state = ENEMYSTATE.FREE;    
-}
-
-if(player.x < x)
-{
-    hSpeed = -4;  
+    hSpeed = -6;  
 	image_xscale = -1;
 }
 else
 {
-    hSpeed = 4  
+    hSpeed = 6  
 	image_xscale = 1;
 }
-
-if (place_meeting(x+hSpeed,y,oWall) or place_meeting(x+hSpeed,y,obj_invisible))
+if hCollision
 {
     var onePixel = sign(hSpeed);
-    while (!place_meeting(x+onePixel,y,oWall)) x += onePixel;
+    //while (!place_meeting(x+onePixel,y,oWall)) x += onePixel;
     hSpeed *= -1;
 }
 
