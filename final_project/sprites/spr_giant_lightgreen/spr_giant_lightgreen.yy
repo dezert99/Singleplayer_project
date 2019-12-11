@@ -2,7 +2,7 @@
     "id": "961385fb-1ea0-4324-b03f-73d41e1e5233",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_giant",
+    "name": "spr_giant_lightgreen",
     "For3D": false,
     "HTile": false,
     "VTile": false,
