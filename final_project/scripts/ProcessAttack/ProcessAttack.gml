@@ -9,7 +9,7 @@ if (sprite_index != argument0)
 //Uses attack hitbox & checks for hits
 mask_index = argument1;
 var hitByAttackNow = ds_list_create() // instances hit by attack in this frame
-var hits = instance_place_list(x,y,obj_test_enemy,hitByAttackNow,false); // places instances of enemy hit by hitbox in list
+var hits = instance_place_list(x,y,obj_giant,hitByAttackNow,false); // places instances of enemy hit by hitbox in list
 if (hits > 0)
 {
 	for (var i = 0; i < hits; i++)
