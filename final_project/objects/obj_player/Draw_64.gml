@@ -13,7 +13,7 @@ for(i = 1; i <= player_health_set/10; i++)
 {
 	if (not player_health < i*10)
 	{
-		draw_sprite_part_ext(spr_heart,1,0,0,128,128,40+(77*i),40,0.6,0.6,c_white,1);
+		draw_sprite_part_ext(spr_heart,1,0,0,128,128-(player_health/4),40+(77*i),40,0.6,0.6,c_white,1);
 	}
 }
 
