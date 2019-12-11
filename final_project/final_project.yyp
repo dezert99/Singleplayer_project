@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "33a47377-3bc4-497e-b56a-07dc2586cde2",
+            "Value": {
+                "id": "63340e32-a258-42d6-9ab4-ea70ead72def",
+                "resourcePath": "sprites\\spr_heart\\spr_heart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "341f8024-8dc1-489f-9f72-0e5028a2cc41",
             "Value": {
                 "id": "22a5b64e-86df-41c6-91f3-9bda27e1e244",
@@ -991,6 +999,14 @@
             }
         },
         {
+            "Key": "8157ed9b-66c8-4b4c-9f2b-3d4f3ef3573f",
+            "Value": {
+                "id": "6c1c57aa-4b04-4135-b24b-3632d080b72d",
+                "resourcePath": "views\\8157ed9b-66c8-4b4c-9f2b-3d4f3ef3573f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "837eaef3-c52e-447d-9fd2-0c5c67c11df6",
             "Value": {
                 "id": "3a00a7a7-d697-48fc-a1fa-36e8c9b76973",
@@ -1243,6 +1259,14 @@
             "Value": {
                 "id": "f409b977-fc21-402f-ba81-2cb862f99a6a",
                 "resourcePath": "sprites\/baby_slime_right\/baby_slime_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a20ef2e2-592a-49e9-bb62-91e0faaa210f",
+            "Value": {
+                "id": "b8383900-6ed6-4334-88d5-e2f3daa787d4",
+                "resourcePath": "sprites\\spr_heart_container\\spr_heart_container.yy",
                 "resourceType": "GMSprite"
             }
         },
