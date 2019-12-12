@@ -1082,7 +1082,7 @@
             "Key": "89343b5b-e02d-4d98-b87b-c74ef4a8ca1f",
             "Value": {
                 "id": "d945023e-f681-41f6-a992-e17a9f000703",
-                "resourcePath": "rooms\/rm_forest\/rm_forest.yy",
+                "resourcePath": "rooms\\rm_forest2\\rm_forest2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1490,7 +1490,7 @@
             "Key": "be1f4809-10fe-4356-a667-2a59d31accda",
             "Value": {
                 "id": "1b34a45c-057d-4115-b3fa-b61a9a4284f9",
-                "resourcePath": "rooms\/rm_forest1\/rm_forest1.yy",
+                "resourcePath": "rooms\\rm_forest1\\rm_forest1.yy",
                 "resourceType": "GMRoom"
             }
         },

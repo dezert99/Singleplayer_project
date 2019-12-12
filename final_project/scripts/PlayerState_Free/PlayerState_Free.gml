@@ -50,7 +50,7 @@ else
 	}
 }
 y += vSpeed; // must be under collisions
-hasJumpBoots = true;
+//hasJumpBoots = true;
 if (keyJump && grounded)
 {
 	jump_count += 1;

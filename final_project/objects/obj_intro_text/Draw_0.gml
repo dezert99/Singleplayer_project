@@ -25,5 +25,5 @@ if sent_count < 8
 else
 {
 	audio_stop_sound(intro_strings_v1_big_rough);
-	room_goto(rm_forest);
+	room_goto(rm_forest1);
 }
