@@ -16,3 +16,5 @@ my_name = "Shop"
 
 item_to_give = "";
 purchasing_item = false;
+
+hasItem = false;

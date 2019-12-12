@@ -12,7 +12,7 @@ if (place_meeting(x+hSpeed,y,oWall))
 }
 x += hSpeed;
 
-if (keyAttack) && (image_index > 4)
+if (keyAttack) && (image_index > 3)
 {	
 	state = PLAYERSTATE.ATTACK_COMBO;
 	attack_timer = attack_timer_set;

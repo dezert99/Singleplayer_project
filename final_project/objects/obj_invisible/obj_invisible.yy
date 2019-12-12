@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_invisible",
     "eventList": [
-        
+        {
+            "id": "6f76044d-96e1-486e-a6db-2cf9a76e1838",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "42ae7414-b0e9-43fa-aef8-2ca4b44acc94"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

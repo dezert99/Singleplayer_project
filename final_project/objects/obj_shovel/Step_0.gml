@@ -4,3 +4,5 @@ if hasShovel
 {
 	instance_destroy(instance_nearest(x,y,torch_light));
 }
+
+if hasItem hasShovel = true;
