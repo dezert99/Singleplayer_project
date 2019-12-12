@@ -458,7 +458,7 @@
             "Key": "33a47377-3bc4-497e-b56a-07dc2586cde2",
             "Value": {
                 "id": "63340e32-a258-42d6-9ab4-ea70ead72def",
-                "resourcePath": "sprites\\spr_heart\\spr_heart.yy",
+                "resourcePath": "sprites\/spr_heart\/spr_heart.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -602,7 +602,7 @@
             "Key": "4589ff00-fc74-4f3a-9185-bf199166f992",
             "Value": {
                 "id": "a0eabdf0-aa1f-4e4c-a9d8-8710e7924d8b",
-                "resourcePath": "sprites\\spr_healthbar_outside\\spr_healthbar_outside.yy",
+                "resourcePath": "sprites\/spr_healthbar_outside\/spr_healthbar_outside.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1026,7 +1026,7 @@
             "Key": "8157ed9b-66c8-4b4c-9f2b-3d4f3ef3573f",
             "Value": {
                 "id": "6c1c57aa-4b04-4135-b24b-3632d080b72d",
-                "resourcePath": "views\\8157ed9b-66c8-4b4c-9f2b-3d4f3ef3573f.yy",
+                "resourcePath": "views\/8157ed9b-66c8-4b4c-9f2b-3d4f3ef3573f.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1082,7 +1082,7 @@
             "Key": "89343b5b-e02d-4d98-b87b-c74ef4a8ca1f",
             "Value": {
                 "id": "d945023e-f681-41f6-a992-e17a9f000703",
-                "resourcePath": "rooms\\rm_forest2\\rm_forest2.yy",
+                "resourcePath": "rooms\/rm_forest2\/rm_forest2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1202,7 +1202,7 @@
             "Key": "96281f01-a91f-4de8-8020-c7b7a496def0",
             "Value": {
                 "id": "84900d6b-36c7-43bb-8ec9-8e0a2bb62975",
-                "resourcePath": "sprites\\spr_healthbar_inside\\spr_healthbar_inside.yy",
+                "resourcePath": "sprites\/spr_healthbar_inside\/spr_healthbar_inside.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1298,7 +1298,7 @@
             "Key": "a20ef2e2-592a-49e9-bb62-91e0faaa210f",
             "Value": {
                 "id": "b8383900-6ed6-4334-88d5-e2f3daa787d4",
-                "resourcePath": "sprites\\spr_heart_container\\spr_heart_container.yy",
+                "resourcePath": "sprites\/spr_heart_container\/spr_heart_container.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1490,7 +1490,7 @@
             "Key": "be1f4809-10fe-4356-a667-2a59d31accda",
             "Value": {
                 "id": "1b34a45c-057d-4115-b3fa-b61a9a4284f9",
-                "resourcePath": "rooms\\rm_forest1\\rm_forest1.yy",
+                "resourcePath": "rooms\/rm_forest1\/rm_forest1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1538,7 +1538,7 @@
             "Key": "c0d7c640-8a64-48af-8cfb-4baa360751d1",
             "Value": {
                 "id": "efab7c83-5b6d-4cad-82a1-01523efe832b",
-                "resourcePath": "sounds\\forestv1_rough_2\\forestv1_rough_2.yy",
+                "resourcePath": "sounds\/forestv1_rough_2\/forestv1_rough_2.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1858,7 +1858,7 @@
             "Key": "ddd5377a-9819-421d-89e3-56068cd4617c",
             "Value": {
                 "id": "4e7004e0-1ab3-4479-8051-edd569aaf6c3",
-                "resourcePath": "sounds\\forestv1_rough_\\forestv1_rough_.yy",
+                "resourcePath": "sounds\/forestv1_rough_\/forestv1_rough_.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2039,6 +2039,14 @@
             }
         },
         {
+            "Key": "f5f13175-058b-4eab-b00a-2a0fa0625186",
+            "Value": {
+                "id": "c5b1b149-92ba-4d37-9ae1-86f2c329b278",
+                "resourcePath": "scripts\/resetPlayer\/resetPlayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f6a69077-66fe-4c7a-b1f9-4fed5e2b81b8",
             "Value": {
                 "id": "8768deea-250d-4a61-89a9-5efe9693b817",
@@ -2141,7 +2149,8 @@
         "f41dd6df-70f1-4334-aa72-25206700c467",
         "560a5bad-d164-4296-8f6e-7b4ee6632adb",
         "c9dabb7c-93b0-43a6-b5e5-85abf7dabe9b",
-        "884ceaed-a855-49a5-b617-27e0b74da9e5"
+        "884ceaed-a855-49a5-b617-27e0b74da9e5",
+        "f5f13175-058b-4eab-b00a-2a0fa0625186"
     ],
     "tutorial": ""
 }

@@ -40,3 +40,7 @@ switch (state)
 	case PLAYERSTATE.MENU: PlayerState_Menu(); break;
 	case PLAYERSTATE.TOOK_DAMAGE: PlayerState_TookDamage(); break;
 }
+
+if(player_health <= 0){
+	resetPlayer();	
+}
