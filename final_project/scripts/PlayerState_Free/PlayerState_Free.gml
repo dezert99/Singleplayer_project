@@ -42,6 +42,7 @@ if (place_meeting(x,y+vSpeed,oWall))
 	vSpeed = 0;
 	grounded = true;
 	jump_count = jump_count_max;
+	show_debug_message("Called"+string(grounded))
 }
 y += vSpeed; // must be under collisions
 //hasJumpBoots = true;
@@ -55,10 +56,13 @@ y += vSpeed; // must be under collisions
 	//	jump_count = 0;
 	//}
 //}
-if(keyJump && (grounded || jump_count >0)){
+if(keyJump && (grounded || jump_count > 0)){
 	vSpeed = -jump_amt;
 	jump_count--;
+	show_debug_message(string(jump_count)+string(grounded));
+	grounded = false;
 }
+
 if (keyAttack) && attack_timer <= 0
 {
 	state = PLAYERSTATE.ATTACK_SLASH;
