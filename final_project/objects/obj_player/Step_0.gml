@@ -29,6 +29,7 @@ else
 {
 	invincibility_timer = invincibility_timer_max;
 }
+if hasJumpBoots jump_count_max = 2;
 switch (state)
 {
 	case PLAYERSTATE.FREE: PlayerState_Free(); break;

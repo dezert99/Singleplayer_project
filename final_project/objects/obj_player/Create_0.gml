@@ -6,7 +6,8 @@ walkSpeed = 12;
 grounded = false;
 jump_amt = 28;
 fric = 0;
-
+jump_count = 0;
+jump_count_max = 1;
 //////////////
 
 //////////////

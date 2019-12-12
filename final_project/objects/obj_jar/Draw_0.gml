@@ -1,0 +1,1 @@
+if !hasJar draw_self();

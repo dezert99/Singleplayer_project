@@ -44,16 +44,34 @@ if (place_meeting(x,y+vSpeed,oWall))
 }
 else
 {
-	grounded = false;
+	if jump_count == 0
+	{
+		grounded = false;
+	}
 }
 y += vSpeed; // must be under collisions
-
+jump_count_max = 2;
 if (keyJump && grounded)
 {
-	grounded = false;
+	jump_count += 1;
 	vSpeed -= jump_amt;
+	if jump_count > 1
+	{
+		gravSpeed = 0;
+		vSpeed = 0;
+		vSpeed -= jump_amt;
+	}
+	else
+	{
+		gravSpeed = 1.6;
+	}
+	if jump_count == jump_count_max
+	{
+		grounded = false;
+		jump_count = 0;
+	}
+	
 }
-
 if (keyAttack) && attack_timer <= 0
 {
 	state = PLAYERSTATE.ATTACK_SLASH;
