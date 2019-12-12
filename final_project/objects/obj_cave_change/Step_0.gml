@@ -6,7 +6,7 @@ if place_meeting(x,y,obj_player) && chatTriggered and hasShovel
 {
 	obj_player.return_x = x;
 	obj_player.return_y = y;
-	obj_player.x = 150;
+	obj_player.x = 300;
 	obj_player.y = 400;
 	room_goto(rm_cave);
 }
