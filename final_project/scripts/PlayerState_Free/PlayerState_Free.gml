@@ -1,5 +1,5 @@
 hSpeed = (keyRight - keyLeft) * walkSpeed;
-vSpeed = vSpeed + gravSpeed;
+vSpeed += gravSpeed;
 
 if keyboard_check(ord("9")) x -= 5;
 if keyboard_check(ord("0")) x += 5;
@@ -41,25 +41,23 @@ if (place_meeting(x,y+vSpeed,oWall))
 	while (!place_meeting(x,y+onePixel,oWall)) y += onePixel;
 	vSpeed = 0;
 	grounded = true;
-}
-else
-{
-	if jump_count == 0
-	{
-		grounded = false;
-	}
+	jump_count = jump_count_max;
 }
 y += vSpeed; // must be under collisions
 //hasJumpBoots = true;
-if (keyJump && grounded)
-{
-	jump_count += 1;
-	vSpeed -= jump_amt;
-	if jump_count == jump_count_max
-	{
-		grounded = false;
-		jump_count = 0;
-	}
+//if (keyJump && grounded)
+//{
+//	jump_count += 1;
+//	vSpeed -= jump_amt;
+//	if jump_count == jump_count_max
+//	{
+//		grounded = false;
+	//	jump_count = 0;
+	//}
+//}
+if(keyJump && (grounded || jump_count >0)){
+	vSpeed = -jump_amt;
+	jump_count--;
 }
 if (keyAttack) && attack_timer <= 0
 {
