@@ -14,7 +14,7 @@ if (place_meeting(x+hSpeed,y,oWall))
 }
 x += hSpeed;
 //sprite changes//
-if (hSpeed != 0) and grounded
+if (hSpeed != 0)
 {
 	image_xscale = sign(hSpeed);
 	sprite_index = spr_knight_run;
