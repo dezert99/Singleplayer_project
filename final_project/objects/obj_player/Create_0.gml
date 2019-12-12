@@ -48,7 +48,7 @@ timer = 5;
 
 player_damage_taken = 0;
 
-invincibility_timer_max = 60;
+invincibility_timer_max = 90;
 invincibility_timer = 0;
 invincible = false;
 
