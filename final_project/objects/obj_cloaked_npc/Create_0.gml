@@ -17,7 +17,7 @@ doneText[0] = "Thank you for looking for my book..."
 
 completedText[0] = "You found my book! Marvelous!"
 completedText[1] = "Now, wiggldy woggldy WOO"
-completedText[2] = "You can now complete an aditional jump mid-air"
+completedText[2] = "You can now complete an additional jump mid-air"
 completedText[3] = "Isn't that cool!"
 
 reset = false;
