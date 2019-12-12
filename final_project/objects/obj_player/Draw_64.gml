@@ -6,6 +6,7 @@
 //draw_text(10,30,string(invincibility_timer));
 
 draw_set_halign(fa_left);
+draw_set_valign(fa_bottom);
 //draw_text(10,50,string(hit_timer));
 draw_text(50,70,"Gold: " + string(gold));
 
