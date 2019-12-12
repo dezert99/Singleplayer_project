@@ -2,7 +2,7 @@ if(collision_rectangle(x - sprite_width,y + sprite_height,x + sprite_width,y-spr
 	chatTriggered = true	
 }
 
-if place_meeting(x,y,obj_player) && chatTriggered and hasShovel
+if collision_rectangle(x - sprite_width,y + sprite_height,x + sprite_width,y-sprite_height,obj_player,false,false) && chatTriggered and hasShovel
 {
 	obj_player.return_x = x;
 	obj_player.return_y = y;
