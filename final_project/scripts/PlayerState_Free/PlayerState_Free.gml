@@ -50,27 +50,16 @@ else
 	}
 }
 y += vSpeed; // must be under collisions
-jump_count_max = 2;
+hasJumpBoots = true;
 if (keyJump && grounded)
 {
 	jump_count += 1;
 	vSpeed -= jump_amt;
-	if jump_count > 1
-	{
-		gravSpeed = 0;
-		vSpeed = 0;
-		vSpeed -= jump_amt;
-	}
-	else
-	{
-		gravSpeed = 1.6;
-	}
 	if jump_count == jump_count_max
 	{
 		grounded = false;
 		jump_count = 0;
 	}
-	
 }
 if (keyAttack) && attack_timer <= 0
 {
