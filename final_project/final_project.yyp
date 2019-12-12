@@ -1538,7 +1538,7 @@
             "Key": "c0d7c640-8a64-48af-8cfb-4baa360751d1",
             "Value": {
                 "id": "efab7c83-5b6d-4cad-82a1-01523efe832b",
-                "resourcePath": "sounds\/forestv1_rough_\/forestv1_rough_.yy",
+                "resourcePath": "sounds\\forestv1_rough_2\\forestv1_rough_2.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1852,6 +1852,14 @@
                 "id": "ac402c24-fb9b-4361-ad3d-6f8a6dd22776",
                 "resourcePath": "sprites\/spr_darkbrown\/spr_darkbrown.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ddd5377a-9819-421d-89e3-56068cd4617c",
+            "Value": {
+                "id": "4e7004e0-1ab3-4479-8051-edd569aaf6c3",
+                "resourcePath": "sounds\\forestv1_rough_\\forestv1_rough_.yy",
+                "resourceType": "GMSound"
             }
         },
         {

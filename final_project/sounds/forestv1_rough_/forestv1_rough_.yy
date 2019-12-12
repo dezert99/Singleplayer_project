@@ -1,5 +1,5 @@
 {
-    "id": "c0d7c640-8a64-48af-8cfb-4baa360751d1",
+    "id": "ddd5377a-9819-421d-89e3-56068cd4617c",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "forestv1_rough_",
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0
+    "volume": 0.85
 }
