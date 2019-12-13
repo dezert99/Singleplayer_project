@@ -60,3 +60,5 @@ gold = 0;
 
 return_x = 0;
 return_y = 0;
+////sound////
+sword_sound = false;

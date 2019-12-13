@@ -18,6 +18,8 @@ if (hSpeed != 0)
 {
 	image_xscale = sign(hSpeed);
 	sprite_index = spr_knight_run;
+	if !walk_sound audio_play_sound(running_leaves,1,true);
+	walk_sound = true;
 }
 else if !grounded
 {
@@ -27,11 +29,15 @@ else if !grounded
 		//image_speed = 0;
 	}
 	if vSpeed > 0 sprite_index = spr_knight_fall
+	audio_stop_sound(running_leaves);
+	walk_sound = false;
 }
 else
 {
 	sprite_index = spr_knight_idle;	
 	image_speed = 1;
+	audio_stop_sound(running_leaves);
+	walk_sound = false;
 }
 
 //vert collision//
@@ -57,6 +63,8 @@ y += vSpeed; // must be under collisions
 	//}
 //}
 if(keyJump && (grounded || jump_count > 0)){
+	audio_stop_sound(running_leaves);
+	audio_play_sound(jump,1,false);
 	vSpeed = -jump_amt;
 	jump_count--;
 	show_debug_message(string(jump_count)+string(grounded));
